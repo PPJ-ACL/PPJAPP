@@ -1,17 +1,9 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
+    ".NETFramework,Version=v6.0,Profile=windows": {
       "VisualBasic.PowerPacks.Vs/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/Microsoft.VisualBasic.PowerPacks.Vs.dll": {},
-          "lib/Microsoft.VisualBasic.dll": {}
-        },
-        "runtime": {
-          "lib/Microsoft.VisualBasic.PowerPacks.Vs.dll": {},
-          "lib/Microsoft.VisualBasic.dll": {}
-        }
+        "type": "package"
       }
     }
   },
@@ -31,7 +23,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
+    ".NETFramework,Version=v6.0,Profile=windows": [
       "VisualBasic.PowerPacks.Vs >= 1.0.0"
     ]
   },
@@ -52,64 +44,37 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows7.0"
+        "net60-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net60-windows": {
           "projectReferences": {}
         }
-      },
-      "warningProperties": {
-        "warnAsError": [
-          "NU1605"
-        ]
       }
     },
     "frameworks": {
-      "net6.0-windows7.0": {
-        "targetAlias": "net6.0-windows",
+      "net60-windows": {
         "dependencies": {
           "VisualBasic.PowerPacks.Vs": {
             "target": "Package",
             "version": "[1.0.0, )"
           }
-        },
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
       }
     }
   },
   "logs": [
     {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"VisualBasic.PowerPacks.Vs 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net6.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete VisualBasic.PowerPacks.Vs 1.0.0 no es compatible con net60-windows (.NETFramework,Version=v6.0,Profile=windows). El paquete VisualBasic.PowerPacks.Vs 1.0.0 admite: net (.NETFramework,Version=v0.0)",
       "libraryId": "VisualBasic.PowerPacks.Vs",
       "targetGraphs": [
-        "net6.0-windows7.0"
+        ".NETFramework,Version=v6.0,Profile=windows"
       ]
     }
   ]
