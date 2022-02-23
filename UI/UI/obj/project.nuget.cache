@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sWMxr+9HI8e4Q7jg/yD1d3eDrq/+96co/EgTRVPQpCQ+pyWd/rsHdXV/Dgd7XYW+n11bDKFQyPpH24NJ5gkuSA==",
+  "dgSpecHash": "MWJuzl2phPS8I9UTY0sPx+jsd7M/CHwKiURfclAAi5Ubhm6iyzLsWnUYbRdM0RhCMqgNPKgU8bcibRoiPmmgbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
+  "projectFilePath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\maruxan\\.nuget\\packages\\visualbasic.powerpacks.vs\\1.0.0\\visualbasic.powerpacks.vs.1.0.0.nupkg.sha512"
+    "C:\\Users\\brian\\.nuget\\packages\\visualbasic.powerpacks.vs\\1.0.0\\visualbasic.powerpacks.vs.1.0.0.nupkg.sha512"
   ],
   "logs": [
     {

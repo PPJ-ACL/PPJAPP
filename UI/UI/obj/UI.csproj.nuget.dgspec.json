@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj": {}
+    "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj": {
+    "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\maruxan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\obj\\",
+        "projectPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maruxan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

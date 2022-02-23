@@ -8,6 +8,7 @@ namespace CapaDTO
 {
     class Profesional
     {
+        //Atributos Profesional
         private int id;
         private string rut;
         private string nombre;
@@ -17,6 +18,7 @@ namespace CapaDTO
         private string telefono;
         private string contrasenna;
 
+        //Metodos Get y Set 
         public int Id { get => id; set => id = value; }
         public string Rut { get => rut; set => rut = value; }
         public string Nombre { get => nombre; set => nombre = value; }
