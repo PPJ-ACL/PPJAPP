@@ -11,6 +11,7 @@ namespace CapaConexion
 {
     public class ConexionSQL
     {
+        //Atributos utilizados para la conexion
         private string nombreBaseDatos;
         private string nombreTabla;
         private string cadenaConexion;
@@ -20,6 +21,8 @@ namespace CapaConexion
         private DataSet dbDataSet;
         private SqlDataAdapter dbDataAdapter;
 
+
+        //Get y Set para la obtención y seteo de valores
         public string NombreBaseDatos { get => nombreBaseDatos; set => nombreBaseDatos = value; }
         public string NombreTabla { get => nombreTabla; set => nombreTabla = value; }
         public string CadenaConexion { get => cadenaConexion; set => cadenaConexion = value; }
@@ -45,7 +48,6 @@ namespace CapaConexion
         } //Fin abrir
 
         //cerrar conexion
-
         public void cerrar()
         {
             try
@@ -59,7 +61,7 @@ namespace CapaConexion
 
         } //Fin cerrar
 
-
+        //Crear Conexion de BD
         public void conectar()
         {
             if (this.NombreBaseDatos.Length == 0)

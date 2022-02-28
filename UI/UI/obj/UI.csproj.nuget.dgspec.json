@@ -4,6 +4,21 @@
     "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj",
+        "projectName": "CapaConexion",
+        "projectPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj": {
+                "projectPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -40,6 +59,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
             "VisualBasic.PowerPacks.Vs": {
               "target": "Package",
               "version": "[1.0.0, )"

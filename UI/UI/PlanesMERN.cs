@@ -15,6 +15,7 @@ namespace UI
         public PlanesMERN()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -39,6 +40,11 @@ namespace UI
             PlanEstudio planEstudio = new PlanEstudio();
             planEstudio.Show();
             this.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

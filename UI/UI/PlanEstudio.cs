@@ -15,6 +15,7 @@ namespace UI
         public PlanEstudio()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void degradePanel1_Paint(object sender, PaintEventArgs e)

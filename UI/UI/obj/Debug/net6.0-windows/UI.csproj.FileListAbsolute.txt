@@ -21,3 +21,35 @@ C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.csproj.Asse
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.PanelPrincipal.resources
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.PlanesMERN.resources
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.PlanEstudio.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.pdb
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.exe
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.deps.json
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.runtimeconfig.json
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.pdb
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.Form1.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.PanelPrincipal.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.PlanesMERN.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.PlanEstudio.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.Properties.Resources.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.AssemblyInfo.cs
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.csproj.CopyComplete
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\refint\UI.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.genruntimeconfig.cache
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\ref\UI.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaConexion.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaConexion.pdb
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaConexion.dll.config
