@@ -1,0 +1,41 @@
+--Sentencias para Eliminar la BD
+GO
+USE master;
+GO
+DROP DATABASE SAPJDEV;
+
+--Crear Base de Datos Y Usar BD
+GO
+CREATE DATABASE SAPJDEV;
+GO
+USE SAPJDEV; 
+
+--Crear Tabla Profesional
+GO
+CREATE TABLE Profesional
+	(
+	Id int NOT NULL PRIMARY KEY,
+	Rut varchar(9) NOT NULL UNIQUE,
+	Nombre varchar(15) NOT NULL,
+	APaterno varchar(15) NOT NULL,
+	AMaterno varchar(15) NOT NULL,
+	Correo varchar(25) NOT NULL UNIQUE,
+	Telefono int NOT NULL,
+	Contrasenna varchar(15) NOT NULL
+	)
+	
+--Datos de Prueba
+INSERT Profesional (Id, Rut, Nombre, APaterno, AMaterno, Correo, Telefono, Contrasenna) VALUES (1, '201607108', 'Luis', 'Cordova', 'Herrera', 'lcordova@acl.cl', 977760547, 'LCordova123');
+INSERT Profesional (Id, Rut, Nombre, APaterno, AMaterno, Correo, Telefono, Contrasenna) VALUES (2, '14212856K', 'Manuel', 'Jara', 'Pereira', 'MJara@acl.cl', 977748888, 'MJara123');
+
+--Borrar Vistas
+GO
+DROP VIEW VistaLogin
+
+GO
+CREATE VIEW VistaLogin
+AS
+SELECT        Correo, Contrasenna
+FROM            Profesional
+
+
