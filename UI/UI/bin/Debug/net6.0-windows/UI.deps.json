@@ -9,8 +9,7 @@
       "UI/1.0.0": {
         "dependencies": {
           "CapaConexion": "1.0.0",
-          "System.Data.SqlClient": "4.8.3",
-          "VisualBasic.PowerPacks.Vs": "1.0.0"
+          "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
           "UI.dll": {}
@@ -91,14 +90,6 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
-      "VisualBasic.PowerPacks.Vs/1.0.0": {
-        "runtime": {
-          "lib/Microsoft.VisualBasic.PowerPacks.Vs.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.40219.1"
-          }
-        }
-      },
       "CapaConexion/1.0.0": {
         "runtime": {
           "CapaConexion.dll": {}
@@ -174,13 +165,6 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
-    },
-    "VisualBasic.PowerPacks.Vs/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-IiQWQjCWfPmwR8Q1P1V/z1Et7Mr3QG4RUw+mgXuUgNvseNm06VDEZu8DwlZx9UXw+Uf6E7E/d5wXpGEYJOuG7g==",
-      "path": "visualbasic.powerpacks.vs/1.0.0",
-      "hashPath": "visualbasic.powerpacks.vs.1.0.0.nupkg.sha512"
     },
     "CapaConexion/1.0.0": {
       "type": "project",

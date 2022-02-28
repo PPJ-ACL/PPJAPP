@@ -61,5 +61,12 @@ namespace UI
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void btnConfig_Click(object sender, EventArgs e)
+        {
+            ConfigUI configUI = new ConfigUI(); 
+            configUI.Show();
+            this.Close();
+        }
     }
 }

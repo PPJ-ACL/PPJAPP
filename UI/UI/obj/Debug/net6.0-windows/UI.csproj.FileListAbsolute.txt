@@ -2,7 +2,6 @@ C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\UI.exe
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\UI.deps.json
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\UI.runtimeconfig.json
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\UI.dll
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\ref\UI.dll
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\UI.pdb
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.Form1.resources
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.csproj.GenerateResource.cache
@@ -15,7 +14,6 @@ C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\ref\UI.dll
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.pdb
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.genruntimeconfig.cache
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.Properties.Resources.resources
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Microsoft.VisualBasic.PowerPacks.Vs.dll
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.csproj.CopyComplete
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.csproj.AssemblyReference.cache
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.PanelPrincipal.resources
@@ -53,3 +51,13 @@ C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\runtimes\win\l
 C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaConexion.dll
 C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaConexion.pdb
 C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaConexion.dll.config
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaConexion.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaConexion.pdb
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaConexion.dll.config
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\refint\UI.dll

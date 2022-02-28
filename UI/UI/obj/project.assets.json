@@ -131,17 +131,6 @@
           }
         }
       },
-      "VisualBasic.PowerPacks.Vs/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/Microsoft.VisualBasic.PowerPacks.Vs.dll": {},
-          "lib/Microsoft.VisualBasic.dll": {}
-        },
-        "runtime": {
-          "lib/Microsoft.VisualBasic.PowerPacks.Vs.dll": {},
-          "lib/Microsoft.VisualBasic.dll": {}
-        }
-      },
       "CapaConexion/1.0.0": {
         "type": "project",
         "compile": {
@@ -467,19 +456,6 @@
         "version.txt"
       ]
     },
-    "VisualBasic.PowerPacks.Vs/1.0.0": {
-      "sha512": "IiQWQjCWfPmwR8Q1P1V/z1Et7Mr3QG4RUw+mgXuUgNvseNm06VDEZu8DwlZx9UXw+Uf6E7E/d5wXpGEYJOuG7g==",
-      "type": "package",
-      "path": "visualbasic.powerpacks.vs/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/Microsoft.VisualBasic.PowerPacks.Vs.dll",
-        "lib/Microsoft.VisualBasic.dll",
-        "visualbasic.powerpacks.vs.1.0.0.nupkg.sha512",
-        "visualbasic.powerpacks.vs.nuspec"
-      ]
-    },
     "CapaConexion/1.0.0": {
       "type": "project",
       "path": "../CapaConexion/CapaConexion.csproj",
@@ -489,24 +465,23 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "CapaConexion >= 1.0.0",
-      "System.Data.SqlClient >= 4.8.3",
-      "VisualBasic.PowerPacks.Vs >= 1.0.0"
+      "System.Data.SqlClient >= 4.8.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\brian\\.nuget\\packages\\": {}
+    "C:\\Users\\maruxan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
-      "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\obj\\",
+      "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\maruxan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maruxan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -520,8 +495,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj": {
-              "projectPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj"
+            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj": {
+              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj"
             }
           }
         }
@@ -539,10 +514,6 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.3, )"
-          },
-          "VisualBasic.PowerPacks.Vs": {
-            "target": "Package",
-            "version": "[1.0.0, )"
           }
         },
         "imports": [
@@ -566,17 +537,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"VisualBasic.PowerPacks.Vs 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net6.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "libraryId": "VisualBasic.PowerPacks.Vs",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

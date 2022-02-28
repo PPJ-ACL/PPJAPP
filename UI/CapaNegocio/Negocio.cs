@@ -23,7 +23,7 @@ namespace CapaNegocio
             //Nombre BD SQL Server
             this.Conec.NombreBaseDatos = "SAPJDEV";
             //Cadena Conexion
-            this.Conec.CadenaConexion = @"Data Source=DESKTOP-398JQJ0\SQLEXPRESS;Initial Catalog=SAPJDEV ;Integrated Security=True"; 
+            this.Conec.CadenaConexion = @"Data Source=MARUCHANBOOK;Initial Catalog=SAPJDEV ;Integrated Security=True"; 
         }
 
         public DataSet Login(string correo, string cont)

@@ -103,10 +103,11 @@
             this.labelPass.AutoSize = true;
             this.labelPass.BackColor = System.Drawing.Color.Transparent;
             this.labelPass.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(87)))), ((int)(((byte)(41)))), ((int)(((byte)(44)))));
+            this.labelPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelPass.LinkColor = System.Drawing.Color.Gray;
-            this.labelPass.Location = new System.Drawing.Point(174, 515);
+            this.labelPass.Location = new System.Drawing.Point(162, 515);
             this.labelPass.Name = "labelPass";
-            this.labelPass.Size = new System.Drawing.Size(119, 15);
+            this.labelPass.Size = new System.Drawing.Size(157, 21);
             this.labelPass.TabIndex = 9;
             this.labelPass.TabStop = true;
             this.labelPass.Text = "Olvide mi contraseña";
@@ -189,8 +190,8 @@
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Transparent;
             this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnLogin.Image = global::UI.Properties.Resources.Boton_Login1;
-            this.btnLogin.Location = new System.Drawing.Point(128, 547);
+            this.btnLogin.Image = global::UI.Properties.Resources.IconLoginCen;
+            this.btnLogin.Location = new System.Drawing.Point(123, 549);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(223, 74);
             this.btnLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
