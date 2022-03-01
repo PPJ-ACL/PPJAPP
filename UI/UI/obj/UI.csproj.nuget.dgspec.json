@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj": {}
+    "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj": {
+    "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj",
+        "projectUniqueName": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj",
         "projectName": "CapaConexion",
-        "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj",
+        "projectPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -19,17 +19,17 @@
         "net48": {}
       }
     },
-    "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj": {
+    "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
+        "projectUniqueName": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
         "projectName": "UI",
-        "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\maruxan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\obj\\",
+        "projectPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
+        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maruxan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +43,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj": {
-                "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj"
+              "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj": {
+                "projectPath": "C:\\Users\\brian\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj"
               }
             }
           }

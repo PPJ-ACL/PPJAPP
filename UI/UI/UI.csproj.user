@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="AyudaUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConfigUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="DegradePanel.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -10,10 +16,19 @@
     <Compile Update="PanelPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PlanesJAVA.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PlanesMERN.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PlanEstudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TipsJava.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TipUI.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
