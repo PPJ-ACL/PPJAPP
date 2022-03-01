@@ -60,5 +60,10 @@ namespace UI
             Form1 f1 = new Form1();
             f1.Show();
         }
+
+        private void btnBug_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

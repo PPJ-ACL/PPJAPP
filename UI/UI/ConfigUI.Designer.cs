@@ -148,6 +148,7 @@
             this.btnBug.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnBug.TabIndex = 8;
             this.btnBug.TabStop = false;
+            this.btnBug.Click += new System.EventHandler(this.btnBug_Click);
             // 
             // btnLogout
             // 
