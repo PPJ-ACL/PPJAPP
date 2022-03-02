@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlanesJAVA));
             this.btnMax = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
@@ -64,6 +65,7 @@
             this.btnMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnMax.TabIndex = 22;
             this.btnMax.TabStop = false;
+            this.btnMax.Click += new System.EventHandler(this.btnMax_Click);
             // 
             // btnSalir
             // 
@@ -221,6 +223,7 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PlanesJAVA";
             this.Text = "PlanesJAVA";
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();

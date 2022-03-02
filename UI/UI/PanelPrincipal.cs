@@ -68,5 +68,10 @@ namespace UI
             configUI.Show();
             this.Close();
         }
+
+        private void btnMax_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

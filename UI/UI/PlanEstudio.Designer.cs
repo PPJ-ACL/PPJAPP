@@ -28,10 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlanEstudio));
             this.btnMax = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
             this.degradePanel1 = new UI.DegradePanel();
+            this.btnEPostMan = new System.Windows.Forms.PictureBox();
+            this.btnEKarate = new System.Windows.Forms.PictureBox();
+            this.btnEJava = new System.Windows.Forms.PictureBox();
             this.btnEMern = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -42,13 +46,13 @@
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.PictureBox();
-            this.btnEJava = new System.Windows.Forms.PictureBox();
-            this.btnEKarate = new System.Windows.Forms.PictureBox();
-            this.btnEPostMan = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
             this.degradePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEPostMan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEKarate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEJava)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEMern)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -57,9 +61,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnEJava)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnEKarate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnEPostMan)).BeginInit();
             this.SuspendLayout();
             // 
             // btnMax
@@ -114,6 +115,40 @@
             this.degradePanel1.Size = new System.Drawing.Size(861, 640);
             this.degradePanel1.TabIndex = 19;
             this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
+            // 
+            // btnEPostMan
+            // 
+            this.btnEPostMan.BackColor = System.Drawing.Color.Transparent;
+            this.btnEPostMan.Image = global::UI.Properties.Resources.Icon_PostMan_Estudio;
+            this.btnEPostMan.Location = new System.Drawing.Point(484, 147);
+            this.btnEPostMan.Name = "btnEPostMan";
+            this.btnEPostMan.Size = new System.Drawing.Size(272, 122);
+            this.btnEPostMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnEPostMan.TabIndex = 11;
+            this.btnEPostMan.TabStop = false;
+            this.btnEPostMan.Click += new System.EventHandler(this.btnEPostMan_Click);
+            // 
+            // btnEKarate
+            // 
+            this.btnEKarate.BackColor = System.Drawing.Color.Transparent;
+            this.btnEKarate.Image = global::UI.Properties.Resources.Icon_Karate_Estudio;
+            this.btnEKarate.Location = new System.Drawing.Point(114, 373);
+            this.btnEKarate.Name = "btnEKarate";
+            this.btnEKarate.Size = new System.Drawing.Size(272, 122);
+            this.btnEKarate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnEKarate.TabIndex = 10;
+            this.btnEKarate.TabStop = false;
+            // 
+            // btnEJava
+            // 
+            this.btnEJava.BackColor = System.Drawing.Color.Transparent;
+            this.btnEJava.Image = global::UI.Properties.Resources.Icon_Java_Estudio;
+            this.btnEJava.Location = new System.Drawing.Point(484, 362);
+            this.btnEJava.Name = "btnEJava";
+            this.btnEJava.Size = new System.Drawing.Size(272, 122);
+            this.btnEJava.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnEJava.TabIndex = 9;
+            this.btnEJava.TabStop = false;
             // 
             // btnEMern
             // 
@@ -229,40 +264,6 @@
             this.btnVolver.TabStop = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // btnEJava
-            // 
-            this.btnEJava.BackColor = System.Drawing.Color.Transparent;
-            this.btnEJava.Image = global::UI.Properties.Resources.Icon_Java_Estudio;
-            this.btnEJava.Location = new System.Drawing.Point(484, 362);
-            this.btnEJava.Name = "btnEJava";
-            this.btnEJava.Size = new System.Drawing.Size(272, 122);
-            this.btnEJava.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnEJava.TabIndex = 9;
-            this.btnEJava.TabStop = false;
-            // 
-            // btnEKarate
-            // 
-            this.btnEKarate.BackColor = System.Drawing.Color.Transparent;
-            this.btnEKarate.Image = global::UI.Properties.Resources.Icon_Karate_Estudio;
-            this.btnEKarate.Location = new System.Drawing.Point(114, 373);
-            this.btnEKarate.Name = "btnEKarate";
-            this.btnEKarate.Size = new System.Drawing.Size(272, 122);
-            this.btnEKarate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnEKarate.TabIndex = 10;
-            this.btnEKarate.TabStop = false;
-            // 
-            // btnEPostMan
-            // 
-            this.btnEPostMan.BackColor = System.Drawing.Color.Transparent;
-            this.btnEPostMan.Image = global::UI.Properties.Resources.Icon_PostMan_Estudio;
-            this.btnEPostMan.Location = new System.Drawing.Point(484, 147);
-            this.btnEPostMan.Name = "btnEPostMan";
-            this.btnEPostMan.Size = new System.Drawing.Size(272, 122);
-            this.btnEPostMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnEPostMan.TabIndex = 11;
-            this.btnEPostMan.TabStop = false;
-            this.btnEPostMan.Click += new System.EventHandler(this.btnEPostMan_Click);
-            // 
             // PlanEstudio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -280,6 +281,7 @@
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnMin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PlanEstudio";
             this.Text = "PlanEstudio";
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();
@@ -287,6 +289,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
             this.degradePanel1.ResumeLayout(false);
             this.degradePanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEPostMan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEKarate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnEJava)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEMern)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -295,9 +300,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnEJava)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnEKarate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnEPostMan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

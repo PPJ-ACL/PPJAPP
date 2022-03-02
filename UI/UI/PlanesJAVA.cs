@@ -15,6 +15,7 @@ namespace UI
         public PlanesJAVA()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void btnVolver_Click(object sender, EventArgs e)
@@ -32,6 +33,11 @@ namespace UI
         private void btnMin_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMax_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

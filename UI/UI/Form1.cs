@@ -101,7 +101,6 @@ namespace UI
         private void btnLogin_Click(object sender, EventArgs e)
         {
             String selectStock = "SELECT COUNT(Correo) AS NUMUSUARIO FROM VistaLogin WHERE VistaLogin.Correo = '" + txtCorreo.Text + "' AND VistaLogin.contrasenna = '" + txtContra.Text + "';";
-            //SELECT COUNT(Correo) AS NUMUSUARIO FROM VistaLogin WHERE VistaLogin.Correo = 'lcordova@acl.cl' AND VistaLogin.contrasenna = 'LCordova123';
             SqlConnection con = new SqlConnection(ConnectString);
             SqlCommand cmd = new SqlCommand(selectStock, con);
             SqlDataReader mReader;

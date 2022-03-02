@@ -28,7 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AyudaUI));
             this.degradePanel1 = new UI.DegradePanel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnBug = new System.Windows.Forms.PictureBox();
+            this.btnLogout = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnConfig = new System.Windows.Forms.PictureBox();
@@ -37,11 +42,10 @@
             this.btnEstudio = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btnLogout = new System.Windows.Forms.PictureBox();
-            this.btnBug = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.degradePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnBug)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnLogout)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnConfig)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTips)).BeginInit();
@@ -49,9 +53,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnEstudio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnLogout)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnBug)).BeginInit();
             this.SuspendLayout();
             // 
             // degradePanel1
@@ -73,6 +74,53 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(861, 640);
             this.degradePanel1.TabIndex = 1;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(41)))), ((int)(((byte)(79)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox1.Location = new System.Drawing.Point(131, 129);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(230, 65);
+            this.textBox1.TabIndex = 33;
+            this.textBox1.Text = "En esta ventana encontraras los diversos planes de estudio de como PPJ creemos qu" +
+    "e beneficiaria a tu experencia y conocimientos de tecnologias actuales";
+            // 
+            // btnBug
+            // 
+            this.btnBug.BackColor = System.Drawing.Color.Transparent;
+            this.btnBug.Image = global::UI.Properties.Resources.icon_Bug;
+            this.btnBug.Location = new System.Drawing.Point(379, 200);
+            this.btnBug.Name = "btnBug";
+            this.btnBug.Size = new System.Drawing.Size(65, 65);
+            this.btnBug.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnBug.TabIndex = 31;
+            this.btnBug.TabStop = false;
+            // 
+            // btnLogout
+            // 
+            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogout.Image = global::UI.Properties.Resources.icon_logout;
+            this.btnLogout.Location = new System.Drawing.Point(379, 129);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(65, 65);
+            this.btnLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnLogout.TabIndex = 30;
+            this.btnLogout.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::UI.Properties.Resources.Boton_Volver;
+            this.pictureBox3.Location = new System.Drawing.Point(60, 396);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(202, 54);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 29;
+            this.pictureBox3.TabStop = false;
             // 
             // label1
             // 
@@ -164,53 +212,6 @@
             this.btnVolver.TabStop = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::UI.Properties.Resources.Boton_Volver;
-            this.pictureBox3.Location = new System.Drawing.Point(60, 396);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(202, 54);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 29;
-            this.pictureBox3.TabStop = false;
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogout.Image = global::UI.Properties.Resources.icon_logout;
-            this.btnLogout.Location = new System.Drawing.Point(379, 129);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(65, 65);
-            this.btnLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnLogout.TabIndex = 30;
-            this.btnLogout.TabStop = false;
-            // 
-            // btnBug
-            // 
-            this.btnBug.BackColor = System.Drawing.Color.Transparent;
-            this.btnBug.Image = global::UI.Properties.Resources.icon_Bug;
-            this.btnBug.Location = new System.Drawing.Point(379, 200);
-            this.btnBug.Name = "btnBug";
-            this.btnBug.Size = new System.Drawing.Size(65, 65);
-            this.btnBug.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnBug.TabIndex = 31;
-            this.btnBug.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(41)))), ((int)(((byte)(79)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(131, 129);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(230, 65);
-            this.textBox1.TabIndex = 33;
-            this.textBox1.Text = "En esta ventana encontraras los diversos planes de estudio de como PPJ creemos qu" +
-    "e beneficiaria a tu experencia y conocimientos de tecnologias actuales";
-            // 
             // AyudaUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -221,10 +222,14 @@
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.degradePanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AyudaUI";
             this.Text = "AyudaUI";
             this.degradePanel1.ResumeLayout(false);
             this.degradePanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnBug)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnLogout)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnConfig)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTips)).EndInit();
@@ -232,9 +237,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnEstudio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnLogout)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnBug)).EndInit();
             this.ResumeLayout(false);
 
         }

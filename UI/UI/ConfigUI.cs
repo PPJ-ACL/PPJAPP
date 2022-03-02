@@ -15,6 +15,7 @@ namespace UI
         public ConfigUI()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void TipsUI_Load(object sender, EventArgs e)
@@ -36,7 +37,7 @@ namespace UI
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void btnMax_Click(object sender, EventArgs e)
@@ -46,7 +47,7 @@ namespace UI
 
         private void btnMin_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void btnAyuda_Click(object sender, EventArgs e)
@@ -63,7 +64,9 @@ namespace UI
 
         private void btnBug_Click(object sender, EventArgs e)
         {
-
+            EnviarBug eb = new EnviarBug();
+            eb.Show();
+            this.Hide();
         }
     }
 }

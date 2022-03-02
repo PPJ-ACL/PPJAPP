@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PanelPrincipal));
             this.degradePanel1 = new UI.DegradePanel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -234,6 +235,7 @@
             this.btnMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnMax.TabIndex = 15;
             this.btnMax.TabStop = false;
+            this.btnMax.Click += new System.EventHandler(this.btnMax_Click);
             // 
             // pictureBox10
             // 
@@ -299,6 +301,7 @@
             this.Controls.Add(this.degradePanel1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PanelPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PanelPrincipal";

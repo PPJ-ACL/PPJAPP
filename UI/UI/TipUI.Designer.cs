@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TipUI));
             this.btnMax = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
             this.degradePanel1 = new UI.DegradePanel();
+            this.btnTJava = new System.Windows.Forms.PictureBox();
+            this.btnTPostMan = new System.Windows.Forms.PictureBox();
+            this.btnTMERN = new System.Windows.Forms.PictureBox();
             this.btnTKarate = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.PictureBox();
-            this.btnTMERN = new System.Windows.Forms.PictureBox();
-            this.btnTPostMan = new System.Windows.Forms.PictureBox();
-            this.btnTJava = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.btnAyuda = new System.Windows.Forms.PictureBox();
@@ -49,14 +50,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
             this.degradePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTJava)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTPostMan)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTMERN)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTKarate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnTMERN)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnTPostMan)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnTJava)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -113,6 +114,40 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(861, 640);
             this.degradePanel1.TabIndex = 29;
+            // 
+            // btnTJava
+            // 
+            this.btnTJava.BackColor = System.Drawing.Color.Transparent;
+            this.btnTJava.Image = global::UI.Properties.Resources.icon_Tips_Java;
+            this.btnTJava.Location = new System.Drawing.Point(478, 385);
+            this.btnTJava.Name = "btnTJava";
+            this.btnTJava.Size = new System.Drawing.Size(272, 122);
+            this.btnTJava.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnTJava.TabIndex = 10;
+            this.btnTJava.TabStop = false;
+            this.btnTJava.Click += new System.EventHandler(this.btnTJava_Click);
+            // 
+            // btnTPostMan
+            // 
+            this.btnTPostMan.BackColor = System.Drawing.Color.Transparent;
+            this.btnTPostMan.Image = global::UI.Properties.Resources.icon_TipsPostman;
+            this.btnTPostMan.Location = new System.Drawing.Point(467, 138);
+            this.btnTPostMan.Name = "btnTPostMan";
+            this.btnTPostMan.Size = new System.Drawing.Size(272, 122);
+            this.btnTPostMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnTPostMan.TabIndex = 9;
+            this.btnTPostMan.TabStop = false;
+            // 
+            // btnTMERN
+            // 
+            this.btnTMERN.BackColor = System.Drawing.Color.Transparent;
+            this.btnTMERN.Image = global::UI.Properties.Resources.icon_TipsMern;
+            this.btnTMERN.Location = new System.Drawing.Point(149, 138);
+            this.btnTMERN.Name = "btnTMERN";
+            this.btnTMERN.Size = new System.Drawing.Size(272, 122);
+            this.btnTMERN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnTMERN.TabIndex = 8;
+            this.btnTMERN.TabStop = false;
             // 
             // btnTKarate
             // 
@@ -182,40 +217,6 @@
             this.btnVolver.TabStop = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
-            // btnTMERN
-            // 
-            this.btnTMERN.BackColor = System.Drawing.Color.Transparent;
-            this.btnTMERN.Image = global::UI.Properties.Resources.icon_TipsMern;
-            this.btnTMERN.Location = new System.Drawing.Point(149, 138);
-            this.btnTMERN.Name = "btnTMERN";
-            this.btnTMERN.Size = new System.Drawing.Size(272, 122);
-            this.btnTMERN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnTMERN.TabIndex = 8;
-            this.btnTMERN.TabStop = false;
-            // 
-            // btnTPostMan
-            // 
-            this.btnTPostMan.BackColor = System.Drawing.Color.Transparent;
-            this.btnTPostMan.Image = global::UI.Properties.Resources.icon_TipsPostman;
-            this.btnTPostMan.Location = new System.Drawing.Point(467, 138);
-            this.btnTPostMan.Name = "btnTPostMan";
-            this.btnTPostMan.Size = new System.Drawing.Size(272, 122);
-            this.btnTPostMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnTPostMan.TabIndex = 9;
-            this.btnTPostMan.TabStop = false;
-            // 
-            // btnTJava
-            // 
-            this.btnTJava.BackColor = System.Drawing.Color.Transparent;
-            this.btnTJava.Image = global::UI.Properties.Resources.icon_Tips_Java;
-            this.btnTJava.Location = new System.Drawing.Point(478, 385);
-            this.btnTJava.Name = "btnTJava";
-            this.btnTJava.Size = new System.Drawing.Size(272, 122);
-            this.btnTJava.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnTJava.TabIndex = 10;
-            this.btnTJava.TabStop = false;
-            this.btnTJava.Click += new System.EventHandler(this.btnTJava_Click);
-            // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
@@ -278,6 +279,7 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TipUI";
             this.Text = "TipUI";
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();
@@ -285,14 +287,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
             this.degradePanel1.ResumeLayout(false);
             this.degradePanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTJava)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTPostMan)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnTMERN)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTKarate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnTMERN)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnTPostMan)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnTJava)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
