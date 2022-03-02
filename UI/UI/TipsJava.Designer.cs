@@ -109,6 +109,7 @@
             this.btnPDF1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnPDF1.TabIndex = 7;
             this.btnPDF1.TabStop = false;
+            this.btnPDF1.Click += new System.EventHandler(this.btnPDF1_Click);
             // 
             // label1
             // 

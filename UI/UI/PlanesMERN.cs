@@ -14,8 +14,7 @@ namespace UI
     public partial class PlanesMERN : Form
     {
         private WebClient clie;
-        private string linkurl;
-        private string almacenamiento;
+        
         public PlanesMERN()
         {
             InitializeComponent();
@@ -51,8 +50,8 @@ namespace UI
         {
             try
             {
-                linkurl = "https://drive.google.com/uc?id=12Vx5m87dNNI4zanzL6578O524a40-Wa-&export=download";
-                almacenamiento = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\PlanMERN.pdf";
+                string linkurl = "https://drive.google.com/uc?id=12Vx5m87dNNI4zanzL6578O524a40-Wa-&export=download";
+                string almacenamiento= Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\PlanMERN.pdf";
                 clie.DownloadFileAsync(new Uri(linkurl), almacenamiento);
                 MessageBox.Show("Se descargó con exito, favor revise su escritorio", "PPJ APP");
             }

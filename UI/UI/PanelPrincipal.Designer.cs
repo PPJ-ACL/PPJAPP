@@ -165,6 +165,7 @@
             this.btnTips.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnTips.TabIndex = 3;
             this.btnTips.TabStop = false;
+            this.btnTips.Click += new System.EventHandler(this.btnTips_Click);
             // 
             // pictureBox2
             // 
