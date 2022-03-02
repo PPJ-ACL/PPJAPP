@@ -50,6 +50,10 @@ namespace UI
                
         }
 
+        /*
+         Validaciones Correo
+         Desarrollado el 28/02/2022
+        */
         private void txtCorreo_Leave(object sender, EventArgs e)
         {
             if (txtCorreo.Text == "")
@@ -98,6 +102,10 @@ namespace UI
         }
 
 
+        /*
+         Codigo para logearse con la BD
+         Desarrollado el 27/02/2022
+        */
         private void btnLogin_Click(object sender, EventArgs e)
         {
             String selectStock = "SELECT COUNT(Correo) AS NUMUSUARIO FROM VistaLogin WHERE VistaLogin.Correo = '" + txtCorreo.Text + "' AND VistaLogin.contrasenna = '" + txtContra.Text + "';";

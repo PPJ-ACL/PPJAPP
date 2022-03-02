@@ -23,6 +23,11 @@ namespace UI
 
         }
 
+
+        /*
+         Codigo para enviar a un nuevo form
+         Desarrollado el 28/02/2022
+        */
         private void btnVolver_Click(object sender, EventArgs e)
         {
             PanelPrincipal panelPrincipal = new PanelPrincipal();
@@ -34,6 +39,7 @@ namespace UI
         {
 
         }
+
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
@@ -55,6 +61,10 @@ namespace UI
 
         }
 
+        /*
+         Codigo para enviar a un nuevo form
+         Desarrollado el 01/03/2022
+        */
         private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -62,6 +72,10 @@ namespace UI
             f1.Show();
         }
 
+        /*
+         Codigo para enviar a un nuevo form
+         Desarrollado el 02/03/2022
+        */
         private void btnBug_Click(object sender, EventArgs e)
         {
             EnviarBug eb = new EnviarBug();

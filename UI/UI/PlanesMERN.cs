@@ -46,6 +46,10 @@ namespace UI
             this.Close();
         }
 
+        /*
+         Codigo para descargar desde Google Drive
+         Desarrollado el 01/03/2022
+        */
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             try
