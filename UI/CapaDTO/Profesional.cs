@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaDTO
 {
-    class Profesional
+    public class Profesional
     {
         //Atributos Profesional
         private int id;

@@ -26,7 +26,6 @@ C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.deps.json
 C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.runtimeconfig.json
 C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.dll
 C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.pdb
-C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.VisualBasic.PowerPacks.Vs.dll
 C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.csproj.AssemblyReference.cache
 C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.Form1.resources
 C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.PanelPrincipal.resources
@@ -61,3 +60,13 @@ C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaConexion.d
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaConexion.pdb
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaConexion.dll.config
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\refint\UI.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.AyudaUI.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ConfigUI.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.PlanesJAVA.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.TipsJava.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.TipUI.resources
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaDTO.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaNegocio.dll
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaDTO.pdb
+C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaNegocio.pdb
+C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.EnviarBug.resources

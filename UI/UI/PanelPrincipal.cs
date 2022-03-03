@@ -68,5 +68,17 @@ namespace UI
             configUI.Show();
             this.Close();
         }
+
+        private void btnMax_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTips_Click(object sender, EventArgs e)
+        {
+            TipsJava tj = new TipsJava();  
+            tj.Show();
+            this.Hide();
+        }
     }
 }

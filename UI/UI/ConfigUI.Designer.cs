@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfigUI));
             this.btnMax = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
@@ -148,6 +149,7 @@
             this.btnBug.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnBug.TabIndex = 8;
             this.btnBug.TabStop = false;
+            this.btnBug.Click += new System.EventHandler(this.btnBug_Click);
             // 
             // btnLogout
             // 
@@ -159,6 +161,7 @@
             this.btnLogout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnLogout.TabIndex = 7;
             this.btnLogout.TabStop = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // label1
             // 
@@ -280,6 +283,7 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ConfigUI";
             this.Text = "TipsUI";
             this.Load += new System.EventHandler(this.TipsUI_Load);

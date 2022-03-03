@@ -14,6 +14,10 @@ namespace UI
 {
     public partial class Form1 : Form
     {
+        //Cadena Luis
+        String ConnectString = @"Data Source=DESKTOP-398JQJ0\SQLEXPRESS;Initial Catalog=SAPJDEV ;Integrated Security=True";
+        //Cadena Francisco
+        //String ConnectString = @"Data Source=MARUCHANBOOK;Initial Catalog=SAPJDEV ;Integrated Security=True"; 
         public Form1()
         {
             InitializeComponent();
@@ -46,6 +50,10 @@ namespace UI
                
         }
 
+        /*
+         Validaciones Correo
+         Desarrollado el 28/02/2022
+        */
         private void txtCorreo_Leave(object sender, EventArgs e)
         {
             if (txtCorreo.Text == "")
@@ -94,11 +102,13 @@ namespace UI
         }
 
 
+        /*
+         Codigo para logearse con la BD
+         Desarrollado el 27/02/2022
+        */
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            String ConnectString = @"Data Source=DESKTOP-398JQJ0\SQLEXPRESS;Initial Catalog=SAPJDEV ;Integrated Security=True";
             String selectStock = "SELECT COUNT(Correo) AS NUMUSUARIO FROM VistaLogin WHERE VistaLogin.Correo = '" + txtCorreo.Text + "' AND VistaLogin.contrasenna = '" + txtContra.Text + "';";
-            //SELECT COUNT(Correo) AS NUMUSUARIO FROM VistaLogin WHERE VistaLogin.Correo = 'lcordova@acl.cl' AND VistaLogin.contrasenna = 'LCordova123';
             SqlConnection con = new SqlConnection(ConnectString);
             SqlCommand cmd = new SqlCommand(selectStock, con);
             SqlDataReader mReader;

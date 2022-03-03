@@ -9,6 +9,8 @@
       "UI/1.0.0": {
         "dependencies": {
           "CapaConexion": "1.0.0",
+          "CapaDTO": "1.0.0",
+          "CapaNegocio": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
@@ -94,6 +96,19 @@
         "runtime": {
           "CapaConexion.dll": {}
         }
+      },
+      "CapaDTO/1.0.0": {
+        "runtime": {
+          "CapaDTO.dll": {}
+        }
+      },
+      "CapaNegocio/1.0.0": {
+        "dependencies": {
+          "CapaConexion": "1.0.0"
+        },
+        "runtime": {
+          "CapaNegocio.dll": {}
+        }
       }
     }
   },
@@ -167,6 +182,16 @@
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
     "CapaConexion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CapaDTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CapaNegocio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlanesMERN));
             this.degradePanel1 = new UI.DegradePanel();
             this.btnPDF1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -241,6 +242,7 @@
             this.Controls.Add(this.btnMin);
             this.Controls.Add(this.degradePanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PlanesMERN";
             this.Text = "PlanesMERN";
             this.Load += new System.EventHandler(this.PlanesMERN_Load);

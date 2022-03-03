@@ -15,6 +15,7 @@ namespace UI
         public ConfigUI()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void TipsUI_Load(object sender, EventArgs e)
@@ -22,6 +23,11 @@ namespace UI
 
         }
 
+
+        /*
+         Codigo para enviar a un nuevo form
+         Desarrollado el 28/02/2022
+        */
         private void btnVolver_Click(object sender, EventArgs e)
         {
             PanelPrincipal panelPrincipal = new PanelPrincipal();
@@ -34,9 +40,10 @@ namespace UI
 
         }
 
+
         private void btnSalir_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void btnMax_Click(object sender, EventArgs e)
@@ -46,12 +53,34 @@ namespace UI
 
         private void btnMin_Click(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Minimized;
         }
 
         private void btnAyuda_Click(object sender, EventArgs e)
         {
 
+        }
+
+        /*
+         Codigo para enviar a un nuevo form
+         Desarrollado el 01/03/2022
+        */
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.Show();
+        }
+
+        /*
+         Codigo para enviar a un nuevo form
+         Desarrollado el 02/03/2022
+        */
+        private void btnBug_Click(object sender, EventArgs e)
+        {
+            EnviarBug eb = new EnviarBug();
+            eb.Show();
+            this.Hide();
         }
     }
 }

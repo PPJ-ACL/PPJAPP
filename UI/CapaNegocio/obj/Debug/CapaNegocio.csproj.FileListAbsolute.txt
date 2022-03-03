@@ -7,3 +7,4 @@ C:\Users\brian\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaConexion.pdb
 C:\Users\brian\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\brian\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\brian\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\brian\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaConexion.dll.config

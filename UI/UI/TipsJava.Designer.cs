@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TipsJava));
             this.btnMax = new System.Windows.Forms.PictureBox();
             this.btnSalir = new System.Windows.Forms.PictureBox();
             this.btnMin = new System.Windows.Forms.PictureBox();
@@ -108,6 +109,7 @@
             this.btnPDF1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnPDF1.TabIndex = 7;
             this.btnPDF1.TabStop = false;
+            this.btnPDF1.Click += new System.EventHandler(this.btnPDF1_Click);
             // 
             // label1
             // 
@@ -179,6 +181,7 @@
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TipsJava";
             this.Text = "TipsJava";
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();
