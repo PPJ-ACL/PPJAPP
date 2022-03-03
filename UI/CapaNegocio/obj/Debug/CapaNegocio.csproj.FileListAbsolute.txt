@@ -8,3 +8,13 @@ C:\Users\brian\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.C
 C:\Users\brian\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\brian\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.pdb
 C:\Users\brian\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaConexion.dll.config
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\CapaConexion.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\CapaConexion.pdb
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\CapaConexion.dll.config
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\obj\Debug\CapaNegocio.pdb

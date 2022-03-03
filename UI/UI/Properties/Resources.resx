@@ -130,6 +130,9 @@
   <data name="Mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IconPDFJava" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconPDFJava.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MERN Basico1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MERN Basico1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,6 +145,9 @@
   <data name="Icon Java Estudio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon Java Estudio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ACL(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ACL(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Boton Login1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Boton Login1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -153,9 +159,6 @@
   </data>
   <data name="icon Bug" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon Bug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Circulo User" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Circulo User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Nubes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nubes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +175,8 @@
   <data name="Brazuca Sitting1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Brazuca Sitting1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon karate Tips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon karate Tips.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,14 +202,14 @@
   <data name="Pass" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ACL(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ACL(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Circulo User" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Circulo User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon PostMan Estudio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon PostMan Estudio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon karate Tips" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon karate Tips.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconExit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconExit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Line 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Line 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,7 +235,7 @@
   <data name="imagen 41" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imagen 41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IconPDFJava" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconPDFJava.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icono enviar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icono enviar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

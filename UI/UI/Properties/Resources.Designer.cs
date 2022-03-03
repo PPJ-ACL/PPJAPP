@@ -303,6 +303,16 @@ namespace UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Icono_enviar {
+            get {
+                object obj = ResourceManager.GetObject("Icono enviar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IconPDFJava {
             get {
                 object obj = ResourceManager.GetObject("IconPDFJava", resourceCulture);

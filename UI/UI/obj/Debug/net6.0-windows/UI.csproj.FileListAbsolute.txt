@@ -70,3 +70,13 @@ C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaNegocio.dl
 C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaDTO.pdb
 C:\Users\brian\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaNegocio.pdb
 C:\Users\brian\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.EnviarBug.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaDTO.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaNegocio.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaDTO.pdb
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\CapaNegocio.pdb
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.AyudaUI.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.ConfigUI.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.EnviarBug.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.PlanesJAVA.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.TipsJava.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.TipUI.resources

@@ -69,6 +69,8 @@ namespace CapaNegocio
                 mail.From = new MailAddress(from, displayName);
                 //Destinatario
                 mail.To.Add(to);
+                //Copia Segundo Destinatario
+                mail.CC.Add("fveas@acl.cl");
                 //Asunto
                 mail.Subject = asunto;
                 //Cuerpo
