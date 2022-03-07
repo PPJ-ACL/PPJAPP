@@ -5,3 +5,10 @@ C:\Users\brian\source\repos\PPJAPP\UI\CapaConexion\bin\Debug\CapaConexion.pdb
 C:\Users\brian\source\repos\PPJAPP\UI\CapaConexion\obj\Debug\CapaConexion.dll
 C:\Users\brian\source\repos\PPJAPP\UI\CapaConexion\obj\Debug\CapaConexion.pdb
 C:\Users\brian\source\repos\PPJAPP\UI\CapaConexion\bin\Debug\CapaConexion.dll.config
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaConexion\bin\Debug\CapaConexion.dll.config
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaConexion\bin\Debug\CapaConexion.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaConexion\bin\Debug\CapaConexion.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaConexion\obj\Debug\CapaConexion.csproj.AssemblyReference.cache
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaConexion\obj\Debug\CapaConexion.csproj.CoreCompileInputs.cache
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaConexion\obj\Debug\CapaConexion.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaConexion\obj\Debug\CapaConexion.pdb

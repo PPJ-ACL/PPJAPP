@@ -4,3 +4,9 @@ C:\Users\brian\source\repos\PPJAPP\UI\CapaDTO\obj\Debug\CapaDTO.csproj.AssemblyR
 C:\Users\brian\source\repos\PPJAPP\UI\CapaDTO\obj\Debug\CapaDTO.csproj.CoreCompileInputs.cache
 C:\Users\brian\source\repos\PPJAPP\UI\CapaDTO\obj\Debug\CapaDTO.dll
 C:\Users\brian\source\repos\PPJAPP\UI\CapaDTO\obj\Debug\CapaDTO.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaDTO\bin\Debug\CapaDTO.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaDTO\bin\Debug\CapaDTO.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaDTO\obj\Debug\CapaDTO.csproj.AssemblyReference.cache
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaDTO\obj\Debug\CapaDTO.csproj.CoreCompileInputs.cache
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaDTO\obj\Debug\CapaDTO.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaDTO\obj\Debug\CapaDTO.pdb

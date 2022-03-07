@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.degradePanel1 = new UI.DegradePanel();
+            this.txtTipoUsuario = new System.Windows.Forms.TextBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.labelPass = new System.Windows.Forms.LinkLabel();
@@ -58,6 +59,7 @@
             // 
             this.degradePanel1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.degradePanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
+            this.degradePanel1.Controls.Add(this.txtTipoUsuario);
             this.degradePanel1.Controls.Add(this.btnMinimizar);
             this.degradePanel1.Controls.Add(this.btnCerrar);
             this.degradePanel1.Controls.Add(this.labelPass);
@@ -74,6 +76,13 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(461, 693);
             this.degradePanel1.TabIndex = 0;
+            // 
+            // txtTipoUsuario
+            // 
+            this.txtTipoUsuario.Location = new System.Drawing.Point(348, 655);
+            this.txtTipoUsuario.Name = "txtTipoUsuario";
+            this.txtTipoUsuario.Size = new System.Drawing.Size(100, 23);
+            this.txtTipoUsuario.TabIndex = 13;
             // 
             // btnMinimizar
             // 
@@ -264,5 +273,6 @@
         private LinkLabel labelPass;
         private PictureBox btnMinimizar;
         private PictureBox btnCerrar;
+        private TextBox txtTipoUsuario;
     }
 }

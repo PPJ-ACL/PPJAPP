@@ -9,6 +9,7 @@
   </PropertyGroup>
 
     <ItemGroup>
+	    <PackageReference Include="Google.Apis.Drive.v3" Version="1.56.0.2601" />
 	    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
     </ItemGroup>
 
