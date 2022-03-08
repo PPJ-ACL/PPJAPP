@@ -21,76 +21,56 @@ namespace UI
         public SubirPDF()
         {
             InitializeComponent();
-            CenterToScreen();
         }
 
-        /*
-            Desarrollado Por Luis Cordova
-            07/03/2022-08/03/2022
-        */
         private void btnExplorar_Click(object sender, EventArgs e)
         {
             CommonOpenFileDialog dlg = new CommonOpenFileDialog();
-            dlg.IsFolderPicker = false;
+            dlg.IsFolderPicker = true;
             if(dlg.ShowDialog() == CommonFileDialogResult.Ok)
             {
                 string nombreArchivo = dlg.FileName;
                 string valArchivo = nombreArchivo.Substring(nombreArchivo.Length - 3);
-                if (valArchivo == "pdf")
+                if (valArchivo=="pdf")
                 {
                     txtDireccion.Text = nombreArchivo;
-                }
-                else
+                }else
                 {
-                    MessageBox.Show("El Archivo seleccionado no es valido", "SAPJ ACL Error:");
+                    MessageBox.Show("El Archivo seleccionado no es valido","SAPJ ACL Error:");
                 }
+                
             }
         }
-        /*
-            Desarrollado Por Luis Cordova
-            07/03/2022-08/03/2022
-        */
+
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtDireccion.Text.Length > 0)
+            Negocio ng = new Negocio();
+            UserCredential credential;
+            string[] Scopes = { DriveService.Scope.Drive };
+
+            using (var stream =
+                new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
             {
-                Negocio ng = new Negocio();
-                UserCredential credential;
-                string[] Scopes = { DriveService.Scope.Drive };
-
-                using (var stream =
-                    new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
-                {
-                    // The file token.json stores the user's access and refresh tokens, and is created
-                    // automatically when the authorization flow completes for the first time.
-                    //GoogleClientSecrets.Load
-                    string credPath = "token.json";
-                    credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
-                        GoogleClientSecrets.FromStream(stream).Secrets,
-                        Scopes,
-                        "user",
-                        CancellationToken.None,
-                        new FileDataStore(credPath, true)).Result;
-                    Console.WriteLine("Credential file saved to: " + credPath);
-                }
-                string ApplicationName = "SAPJ ACL";
-                // Create Drive API service.
-                var service = new DriveService(new BaseClientService.Initializer()
-                {
-                    HttpClientInitializer = credential,
-                    ApplicationName = ApplicationName,
-                });
-
-                ng.subirPdf(txtDireccion.Text, service);
-
+                //El archivo token.json almacena los tokens de acceso y actualización del usuario
+                ////y se crea automáticamente cuando el flujo de autorización se completa por primera vez. 
+                //GoogleClientSecrets.load
+                string credPath = "token.json";
+                credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
+                    GoogleClientSecrets.FromStream(stream).Secrets,
+                    Scopes,
+                    "user",
+                    CancellationToken.None,
+                    new FileDataStore(credPath, true)).Result;
+                Console.WriteLine("Credential file saved to: " + credPath);
             }
-            else
+            string ApplicationName = "SAPJ ACL";
+            // Creacion del api
+            var service = new DriveService(new BaseClientService.Initializer()
             {
-                MessageBox.Show("Ruta Invalida", "SAPJ ACL Error:");
-            }
-
-            
-
+                HttpClientInitializer = credential,
+                ApplicationName = ApplicationName,
+            });
+            ng.subirImg("C:\\demoDrive\\EjemploMERN.pdf", service);
         }
     }
 }
