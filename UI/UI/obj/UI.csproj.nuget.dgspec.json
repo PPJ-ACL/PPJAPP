@@ -103,6 +103,10 @@
               "target": "Package",
               "version": "[1.56.0.2601, )"
             },
+            "Microsoft.WindowsAPICodePack-Shell": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"

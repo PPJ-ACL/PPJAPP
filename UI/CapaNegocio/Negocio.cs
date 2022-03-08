@@ -22,7 +22,7 @@ namespace CapaNegocio
         //Nueva ConexionSQL
         private ConexionSQL conec;
 
-        static string[] Scopes = { DriveService.Scope.DriveReadonly };
+        static string[] Scopes = { DriveService.Scope.Drive };
         static string ApplicationName = "Drive API .NET Quickstart";
 
         //Get y Set BD
@@ -210,6 +210,21 @@ namespace CapaNegocio
 
         }
 
+        public void subirImg(string path, DriveService service)
+        {
+            var fileMetadata= new Google.Apis.Drive.v3.Data.File();
+            fileMetadata.Name = Path.GetFileName(path);
+            fileMetadata.MimeType = "application/pdf";
+            FilesResource.CreateMediaUpload request;
+            using (var stream = new System.IO.FileStream(path,System.IO.FileMode.Open))
+            {
+                request = service.Files.Create(fileMetadata, stream, "application/pdf");
+                request.Fields = "id";
+                request.Upload();
+            }
+            var file = request.ResponseBody;
+            Console.WriteLine("File ID:" + file.Id);
+        }
 
 
 

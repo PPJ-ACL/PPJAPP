@@ -1,4 +1,9 @@
 using CapaNegocio;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Drive.v3;
+using Google.Apis.Drive.v3.Data;
+using Google.Apis.Services;
+using Google.Apis.Util.Store;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -141,6 +146,14 @@ namespace UI
 
 
 
+        }
+        
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SubirPDF sp = new SubirPDF();
+            sp.Show();
+            this.Hide();
         }
 
         /*
