@@ -110,7 +110,7 @@ namespace UI
 
         /*
          Codigo para logearse con la BD
-         Desarrollado el 27/02/2022
+         Desarrollado el 27/02/2022 -- Modificado 08/03/2022-07/03/2022
         */
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -126,22 +126,35 @@ namespace UI
                 {
                     int valUsu = mReader.GetInt32("NUMUSUARIO");
                     string tipoUsu = mReader.GetString("TIPOUSUARIO");
-                    
-                    if (valUsu == 1)
+                    if (valUsu != 1)
+                    { 
+                    }
+                    else
                     {
-                        PanelPrincipal panel2 = new PanelPrincipal();
-                        panel2.Show();
+                        txtValUsu.Text = valUsu+"";
                         txtTipoUsuario.Text = tipoUsu;
                     }
-                    else if (valUsu == 0)
-                    {
-                        MessageBox.Show("Error en inicio de sesión", "PPJ APP Error");
-                    }
                 }
+
+                if (txtValUsu.Text != "1")
+                {
+                    ErrorMsg em = new ErrorMsg();
+                    em.lblError.Text = "Error en el Inicio de Sesion.";
+                    em.Show();
+                }
+                else
+                {  
+                    PanelPrincipal panel2 = new PanelPrincipal();
+                    panel2.Show(); 
+                }
+
+
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error en la conexion a base de datos, Favor contacte a un administrador"+ex.Message, "PPJ APP Error");
+                ErrorMsg em = new ErrorMsg();  
+                em.lblError.Text = "Error en la conexion a base de datos, Favor contacte a un administrador" + ex.Message;
+                em.Show();
             }
 
 
@@ -151,9 +164,13 @@ namespace UI
         
         private void button1_Click(object sender, EventArgs e)
         {
+
+           
+            
             SubirPDF sp = new SubirPDF();
             sp.Show();
             this.Hide();
+            
         }
 
         /*

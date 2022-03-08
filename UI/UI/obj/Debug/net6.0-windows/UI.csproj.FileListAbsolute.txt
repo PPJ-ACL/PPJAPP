@@ -130,3 +130,4 @@ C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Newtonsoft.
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirPDF.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ErrorMsg.resources

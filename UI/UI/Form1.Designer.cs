@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.degradePanel1 = new UI.DegradePanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.txtTipoUsuario = new System.Windows.Forms.TextBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
@@ -43,7 +44,7 @@
             this.btnLogin = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtValUsu = new System.Windows.Forms.TextBox();
             this.degradePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -60,6 +61,7 @@
             // 
             this.degradePanel1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.degradePanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
+            this.degradePanel1.Controls.Add(this.txtValUsu);
             this.degradePanel1.Controls.Add(this.button1);
             this.degradePanel1.Controls.Add(this.txtTipoUsuario);
             this.degradePanel1.Controls.Add(this.btnMinimizar);
@@ -78,6 +80,16 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(461, 693);
             this.degradePanel1.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(295, 321);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtTipoUsuario
             // 
@@ -233,15 +245,12 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button1
+            // txtValUsu
             // 
-            this.button1.Location = new System.Drawing.Point(295, 321);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.txtValUsu.Location = new System.Drawing.Point(242, 655);
+            this.txtValUsu.Name = "txtValUsu";
+            this.txtValUsu.Size = new System.Drawing.Size(100, 23);
+            this.txtValUsu.TabIndex = 15;
             // 
             // Form1
             // 
@@ -287,5 +296,6 @@
         private PictureBox btnCerrar;
         private TextBox txtTipoUsuario;
         private Button button1;
+        private TextBox txtValUsu;
     }
 }
