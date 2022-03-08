@@ -32,32 +32,30 @@ namespace UI
                 Negocio ng = new Negocio();
                 //lcordova@acl.cl
                 ng.enviarMail("SAPJACL@hotmail.com", "BUG SAPJ ACL", body);
-                MessageBox.Show("Mensaje Enviado Con Exito", "PPJ APP");
-                
+                ErrorMsg em = new ErrorMsg();
+                em.lblError.Text = "Mensaje Enviado Con Exito.";
+                em.Show();
+
             }
             catch (Exception ex)
             {
                 //Mensaje Error
-                MessageBox.Show("Error:"+ex.Message, "PPJ APP Error");
+                ErrorMsg em = new ErrorMsg();
+                em.lblError.Text = "Error:" + ex.Message;
+                em.Show();
             }
             
         }
 
-        private void EnviarBug_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
         private void btnMax_Click(object sender, EventArgs e)
         {
 
         }
-
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;

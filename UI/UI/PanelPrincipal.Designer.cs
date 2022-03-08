@@ -104,7 +104,6 @@
             this.label3.Size = new System.Drawing.Size(61, 32);
             this.label3.TabIndex = 8;
             this.label3.Text = "Tips";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -129,7 +128,6 @@
             this.label1.Size = new System.Drawing.Size(78, 32);
             this.label1.TabIndex = 6;
             this.label1.Text = "Inicio";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox5
             // 
@@ -141,7 +139,6 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // btnConfig
             // 
@@ -200,7 +197,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnMinimizar
             // 
@@ -282,7 +278,7 @@
             this.label5.Size = new System.Drawing.Size(241, 32);
             this.label5.TabIndex = 10;
             this.label5.Text = "Nombre De Usuario";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+
             // 
             // PanelPrincipal
             // 

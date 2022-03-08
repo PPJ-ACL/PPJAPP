@@ -21,12 +21,13 @@ namespace UI
         public SubirPDF()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void btnExplorar_Click(object sender, EventArgs e)
         {
             CommonOpenFileDialog dlg = new CommonOpenFileDialog();
-            dlg.IsFolderPicker = true;
+            dlg.IsFolderPicker = false;
             if(dlg.ShowDialog() == CommonFileDialogResult.Ok)
             {
                 string nombreArchivo = dlg.FileName;
@@ -44,38 +45,55 @@ namespace UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Negocio ng = new Negocio();
-            UserCredential credential;
-            string[] Scopes = { DriveService.Scope.Drive };
+            try
+            {
+                Negocio ng = new Negocio();
+                UserCredential credential;
+                string[] Scopes = { DriveService.Scope.Drive };
 
-            using (var stream =
-                new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
-            {
-                //El archivo token.json almacena los tokens de acceso y actualización del usuario
-                ////y se crea automáticamente cuando el flujo de autorización se completa por primera vez. 
-                //GoogleClientSecrets.load
-                string credPath = "token.json";
-                credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
-                    GoogleClientSecrets.FromStream(stream).Secrets,
-                    Scopes,
-                    "user",
-                    CancellationToken.None,
-                    new FileDataStore(credPath, true)).Result;
-                Console.WriteLine("Credential file saved to: " + credPath);
+                using (var stream =
+                    new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
+                {
+                    //El archivo token.json almacena los tokens de acceso y actualización del usuario
+                    ////y se crea automáticamente cuando el flujo de autorización se completa por primera vez. 
+                    //GoogleClientSecrets.load
+                    string credPath = "token.json";
+                    credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
+                        GoogleClientSecrets.FromStream(stream).Secrets,
+                        Scopes,
+                        "user",
+                        CancellationToken.None,
+                        new FileDataStore(credPath, true)).Result;
+                    Console.WriteLine("Credential file saved to: " + credPath);
+                }
+                string ApplicationName = "SAPJ ACL";
+                // Creacion del api
+                var service = new DriveService(new BaseClientService.Initializer()
+                {
+                    HttpClientInitializer = credential,
+                    ApplicationName = ApplicationName,
+                });
+                ng.subirPdf(txtDireccion.Text, service);
+
+                ErrorMsg em = new ErrorMsg();
+                em.lblError.Text = "Se subío correctamente a Drive";
+                em.Show();
+                txtDireccion.Text = "";
             }
-            string ApplicationName = "SAPJ ACL";
-            // Creacion del api
-            var service = new DriveService(new BaseClientService.Initializer()
+            catch (Exception ex)
             {
-                HttpClientInitializer = credential,
-                ApplicationName = ApplicationName,
-            });
-            ng.subirImg("C:\\demoDrive\\EjemploMERN.pdf", service);
+                ErrorMsg em = new ErrorMsg();
+                em.lblError.Text = "Error en la conexion a base de datos, Favor contacte a un administrador" + ex.Message;
+                em.Show();
+            }
+            
         }
 
-        private void degradePanel1_Paint(object sender, PaintEventArgs e)
+        private void btnVolver_Click(object sender, EventArgs e)
         {
-
+            Vista_Admin va = new Vista_Admin();
+            va.Show();
+            this.Hide();
         }
     }
 }

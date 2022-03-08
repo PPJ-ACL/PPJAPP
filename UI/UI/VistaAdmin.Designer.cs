@@ -31,11 +31,12 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.degradePanel1 = new UI.DegradePanel();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnMax = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
+            this.txtTipoUsuario = new System.Windows.Forms.TextBox();
             this.degradePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -53,6 +54,7 @@
             this.button1.Size = new System.Drawing.Size(134, 135);
             this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -65,6 +67,7 @@
             this.button3.Size = new System.Drawing.Size(130, 135);
             this.button3.TabIndex = 5;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // degradePanel1
             // 
@@ -79,18 +82,6 @@
             this.degradePanel1.Size = new System.Drawing.Size(781, 577);
             this.degradePanel1.TabIndex = 6;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(160, 423);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(165, 32);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Vista Usuario";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -102,6 +93,18 @@
             this.label1.Size = new System.Drawing.Size(169, 32);
             this.label1.TabIndex = 9;
             this.label1.Text = "Subir Archivo";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(160, 423);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(165, 32);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Vista Usuario";
             // 
             // btnMax
             // 
@@ -136,6 +139,13 @@
             this.btnMinimizar.TabIndex = 19;
             this.btnMinimizar.TabStop = false;
             // 
+            // txtTipoUsuario
+            // 
+            this.txtTipoUsuario.Location = new System.Drawing.Point(1160, 58);
+            this.txtTipoUsuario.Name = "txtTipoUsuario";
+            this.txtTipoUsuario.Size = new System.Drawing.Size(100, 23);
+            this.txtTipoUsuario.TabIndex = 22;
+            // 
             // Vista_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -144,6 +154,7 @@
             this.BackgroundImage = global::UI.Properties.Resources.imagen_4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1300, 800);
+            this.Controls.Add(this.txtTipoUsuario);
             this.Controls.Add(this.btnMax);
             this.Controls.Add(this.degradePanel1);
             this.Controls.Add(this.btnCerrar);
@@ -157,6 +168,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -170,5 +182,6 @@
         private PictureBox btnMax;
         private PictureBox btnCerrar;
         private PictureBox btnMinimizar;
+        public TextBox txtTipoUsuario;
     }
 }

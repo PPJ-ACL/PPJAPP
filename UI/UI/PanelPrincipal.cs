@@ -18,11 +18,6 @@ namespace UI
             CenterToScreen();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void btnEstudio_Click(object sender, EventArgs e)
         {
             PlanEstudio planEstudio = new PlanEstudio();
@@ -30,31 +25,9 @@ namespace UI
             this.Close();
         }
 
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
-
-
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)
@@ -68,12 +41,10 @@ namespace UI
             configUI.Show();
             this.Close();
         }
-
         private void btnMax_Click(object sender, EventArgs e)
         {
 
         }
-
         private void btnTips_Click(object sender, EventArgs e)
         {
             TipsJava tj = new TipsJava();  

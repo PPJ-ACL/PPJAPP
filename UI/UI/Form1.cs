@@ -29,23 +29,17 @@ namespace UI
             InitializeComponent();
             CenterToScreen();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
+        //Cerrar Programa
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             Application.Exit(); 
         }
-
+        //Minimizar Programa
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
+        //Relleno Campo
         private void txtCorreo_Enter(object sender, EventArgs e)
         {
             if (txtCorreo.Text == "Correo")
@@ -55,7 +49,6 @@ namespace UI
             }
                
         }
-
         /*
          Validaciones Correo
          Desarrollado el 28/02/2022
@@ -77,17 +70,23 @@ namespace UI
                    
                 }else
                 {
-                    MessageBox.Show("Error en el correo ingresado", "PPJ APP Error");
+                    //Mensaje Error
+                    ErrorMsg em = new ErrorMsg();
+                    em.lblError.Text = "Error en el correo ingresado.";
+                    em.Show();
                     txtCorreo.Focus();
                 }
                 
             }
             else
             {
-                MessageBox.Show("Error en el correo ingresado", "PPJ APP Error");
+                //Mensaje Error
+                ErrorMsg em = new ErrorMsg();
+                em.lblError.Text = "Error en el correo ingresado.";
+                em.Show();
             }
         }
-
+        //Relleno Contra
         private void txtContra_Enter(object sender, EventArgs e)
         {
             if (txtContra.Text == "Contraseña")
@@ -96,7 +95,7 @@ namespace UI
                 txtContra.ForeColor = Color.White;
             }
         }
-
+        //Relleno Contra
         private void txtContra_Leave(object sender, EventArgs e)
         {
             if (txtContra.Text == "")
@@ -106,8 +105,6 @@ namespace UI
                 txtContra.UseSystemPasswordChar = false;
             }
         }
-
-
         /*
          Codigo para logearse con la BD
          Desarrollado el 27/02/2022 -- Modificado 08/03/2022-07/03/2022
@@ -135,7 +132,6 @@ namespace UI
                         txtTipoUsuario.Text = tipoUsu;
                     }
                 }
-
                 if (txtValUsu.Text != "1")
                 {
                     ErrorMsg em = new ErrorMsg();
@@ -144,11 +140,19 @@ namespace UI
                 }
                 else
                 {  
-                    PanelPrincipal panel2 = new PanelPrincipal();
-                    panel2.Show(); 
+                    if(txtTipoUsuario.Text == "admin")
+                    {
+                        Vista_Admin va = new Vista_Admin();
+                        va.txtTipoUsuario.Text = txtTipoUsuario.Text;
+                        va.Show();
+                        this.Hide();
+                    }else if(txtTipoUsuario.Text != "admin")
+                    {
+                        PanelPrincipal panel2 = new PanelPrincipal();
+                        panel2.Show();
+                        this.Hide();
+                    }        
                 }
-
-
             }
             catch (Exception ex)
             {
@@ -156,31 +160,7 @@ namespace UI
                 em.lblError.Text = "Error en la conexion a base de datos, Favor contacte a un administrador" + ex.Message;
                 em.Show();
             }
-
-
-
         }
         
-        
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-           
-            
-            SubirPDF sp = new SubirPDF();
-            sp.Show();
-            this.Hide();
-            
-        }
-
-        private void degradePanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        /*
-
-
-*/
     }
 }

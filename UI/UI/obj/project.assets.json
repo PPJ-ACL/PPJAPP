@@ -767,19 +767,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maruxan\\.nuget\\packages\\": {}
+    "C:\\Users\\Guachupe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
-      "packagesPath": "C:\\Users\\maruxan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\obj\\",
+      "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\Guachupe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maruxan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Guachupe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -793,14 +793,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj": {
-              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj"
+            "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj": {
+              "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj"
             },
-            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaDTO\\CapaDTO.csproj": {
-              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaDTO\\CapaDTO.csproj"
+            "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaDTO\\CapaDTO.csproj": {
+              "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaDTO\\CapaDTO.csproj"
             },
-            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaNegocio\\CapaNegocio.csproj": {
-              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaNegocio\\CapaNegocio.csproj"
+            "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaNegocio\\CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaNegocio\\CapaNegocio.csproj"
             }
           }
         }
@@ -846,16 +846,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

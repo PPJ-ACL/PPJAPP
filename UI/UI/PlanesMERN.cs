@@ -22,23 +22,6 @@ namespace UI
             clie = new WebClient();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            PlanEstudio planestudio = new PlanEstudio();
-            planestudio.Show();
-            this.Close();
-        }
-
-        private void PlanesMERN_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnVolver_Click(object sender, EventArgs e)
         {
             PlanEstudio planEstudio = new PlanEstudio();
@@ -57,45 +40,24 @@ namespace UI
                 string linkurl = "https://drive.google.com/uc?id=12Vx5m87dNNI4zanzL6578O524a40-Wa-&export=download";
                 string almacenamiento= Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\PlanMERN.pdf";
                 clie.DownloadFileAsync(new Uri(linkurl), almacenamiento);
-                MessageBox.Show("Se descargó con exito, favor revise su escritorio", "PPJ APP");
+                ErrorMsg em = new ErrorMsg();
+                em.lblError.Text = "Se descargó con exito, favor revise su escritorio.";
+                em.Show();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error:"+ex.Message, "PPJ APP Error");
+                ErrorMsg em = new ErrorMsg();
+                em.lblError.Text = "Error:" + ex.Message;
+                em.Show();
             }
             
         }
-
-        private void degradePanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
+        //Cerrar App
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
+        //Minimizar App
         private void btnMin_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;

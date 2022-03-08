@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.degradePanel1 = new UI.DegradePanel();
             this.txtValUsu = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.txtTipoUsuario = new System.Windows.Forms.TextBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
@@ -62,7 +61,6 @@
             this.degradePanel1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.degradePanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
             this.degradePanel1.Controls.Add(this.txtValUsu);
-            this.degradePanel1.Controls.Add(this.button1);
             this.degradePanel1.Controls.Add(this.txtTipoUsuario);
             this.degradePanel1.Controls.Add(this.btnMinimizar);
             this.degradePanel1.Controls.Add(this.btnCerrar);
@@ -80,7 +78,6 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(461, 693);
             this.degradePanel1.TabIndex = 0;
-            this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
             // 
             // txtValUsu
             // 
@@ -88,16 +85,6 @@
             this.txtValUsu.Name = "txtValUsu";
             this.txtValUsu.Size = new System.Drawing.Size(100, 23);
             this.txtValUsu.TabIndex = 15;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(295, 321);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtTipoUsuario
             // 
@@ -264,7 +251,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.degradePanel1.ResumeLayout(false);
             this.degradePanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
@@ -295,8 +281,7 @@
         private LinkLabel labelPass;
         private PictureBox btnMinimizar;
         private PictureBox btnCerrar;
-        private TextBox txtTipoUsuario;
-        private Button button1;
         private TextBox txtValUsu;
+        public TextBox txtTipoUsuario;
     }
 }

@@ -23,7 +23,7 @@ namespace CapaNegocio
         private ConexionSQL conec;
 
         static string[] Scopes = { DriveService.Scope.Drive };
-        static string ApplicationName = "Drive API .NET Quickstart";
+
 
         //Get y Set BD
         public ConexionSQL Conec { get => conec; set => conec = value; }
@@ -69,7 +69,7 @@ namespace CapaNegocio
             //Msg Error
             string msge = "Error al enviar este correo. Por favor verifique los datos o intente más tarde.";
             //Correo Origen
-            string from = "SAPJACL@hotmail.com";
+            string from = "SAPJACL@gmail.com";
             //Alias
             string displayName = "SAPJ ACL";
             try
@@ -91,9 +91,9 @@ namespace CapaNegocio
                 mail.IsBodyHtml = true;
 
                 //Server a usar
-                SmtpClient client = new SmtpClient("smtp.office365.com", 587); //Aquí debes sustituir tu servidor SMTP y el puerto
+                SmtpClient client = new SmtpClient("smtp.gmail.com", 587); //Aquí debes sustituir tu servidor SMTP y el puerto
                 //Credenciales
-                client.Credentials = new NetworkCredential(from, "SAPJ2022.");
+                client.Credentials = new NetworkCredential(from, "SAPJ2021.");
                 //Cifrado SSL
                 client.EnableSsl = true;//En caso de que tu servidor de correo no utilice cifrado SSL,poner en false
 
@@ -117,15 +117,15 @@ namespace CapaNegocio
         }
 
         /*
-Codigo para enviar un correo bajo el sistema de soporte
-Desarrollado el 07/03/2022
-*/
+        Codigo para enviar un correo bajo el sistema de soporte
+        Desarrollado el 07/03/2022
+        */
         public string enviarCorreoContactos(string to, string asunto, string body)
         {
             //Msg Error
             string msge = "Error al enviar este correo. Por favor verifique los datos o intente más tarde.";
             //Correo Origen
-            string from = "SAPJACL@hotmail.com";
+            string from = "SAPJACL@gmail.com";
             //Alias
             string displayName = "SAPJ ACL";
             try
@@ -144,9 +144,9 @@ Desarrollado el 07/03/2022
                 mail.IsBodyHtml = true;
 
                 //Server a usar
-                SmtpClient client = new SmtpClient("smtp.office365.com", 587); //Aquí debes sustituir tu servidor SMTP y el puerto
+                SmtpClient client = new SmtpClient("smtp.gmail.com", 587); //Aquí debes sustituir tu servidor SMTP y el puerto
                 //Credenciales
-                client.Credentials = new NetworkCredential(from, "SAPJ2022.");
+                client.Credentials = new NetworkCredential(from, "SAPJ2021.");
                 //Cifrado SSL
                 client.EnableSsl = true;//En caso de que tu servidor de correo no utilice cifrado SSL,poner en false
 
@@ -165,57 +165,11 @@ Desarrollado el 07/03/2022
         }
 
 
-        public void drive()
-        {
-            UserCredential credential;
 
-            using (var stream =
-                new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
-            {
-                // The file token.json stores the user's access and refresh tokens, and is created
-                // automatically when the authorization flow completes for the first time.
-                //GoogleClientSecrets.Load
-                string credPath = "token.json";
-                credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
-                    GoogleClientSecrets.FromStream(stream).Secrets,
-                    Scopes,
-                    "user",
-                    CancellationToken.None,
-                    new FileDataStore(credPath, true)).Result;
-                Console.WriteLine("Credential file saved to: " + credPath);
-            }
-
-            // Create Drive API service.
-            var service = new DriveService(new BaseClientService.Initializer()
-            {
-                HttpClientInitializer = credential,
-                ApplicationName = ApplicationName,
-            });
-
-            // Define parameters of request.
-            FilesResource.ListRequest listRequest = service.Files.List();
-            listRequest.PageSize = 10;
-            listRequest.Fields = "nextPageToken, files(id, name)";
-
-            // List files.
-            IList<Google.Apis.Drive.v3.Data.File> files = listRequest.Execute()
-                .Files;
-            Console.WriteLine("Files:");
-            if (files != null && files.Count > 0)
-            {
-                foreach (var file in files)
-                {
-                    Console.WriteLine("{0} ({1})", file.Name, file.Id);
-                }
-            }
-            else
-            {
-                Console.WriteLine("No files found.");
-            }
-            Console.Read();
-
-        }
-
+        /*
+            Codigo para subir un PDF
+            Desarrollado el 07/03/2022-08/03/2022
+        */
         public void subirPdf(string path, DriveService service)
         {
             var fileMetadata= new Google.Apis.Drive.v3.Data.File();

@@ -70,7 +70,6 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(861, 640);
             this.degradePanel1.TabIndex = 20;
-            this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
             // 
             // btnPDF1
             // 
@@ -95,7 +94,6 @@
             this.label1.Size = new System.Drawing.Size(215, 32);
             this.label1.TabIndex = 6;
             this.label1.Text = "Planes de Estudio";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // pictureBox5
             // 
@@ -107,7 +105,6 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox2
             // 
@@ -119,7 +116,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -131,7 +127,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnMax
             // 
@@ -245,7 +240,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PlanesMERN";
             this.Text = "PlanesMERN";
-            this.Load += new System.EventHandler(this.PlanesMERN_Load);
             this.degradePanel1.ResumeLayout(false);
             this.degradePanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnPDF1)).EndInit();

@@ -15,6 +15,21 @@ namespace UI
         public Vista_Admin()
         {
             InitializeComponent();
+            CenterToScreen();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SubirPDF sp = new SubirPDF();
+            sp.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PanelPrincipal panel2 = new PanelPrincipal();
+            panel2.Show();
+            this.Hide();
         }
     }
 }

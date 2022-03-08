@@ -114,7 +114,6 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(861, 640);
             this.degradePanel1.TabIndex = 19;
-            this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
             // 
             // btnEPostMan
             // 

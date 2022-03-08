@@ -28,33 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtDireccion = new System.Windows.Forms.TextBox();
             this.btnExplorar = new System.Windows.Forms.Button();
             this.lblDire = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.degradePanel1 = new UI.DegradePanel();
+            this.txtDireccion = new System.Windows.Forms.RichTextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnMax = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.degradePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtDireccion
-            // 
-            this.txtDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
-            this.txtDireccion.Location = new System.Drawing.Point(255, 130);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.ReadOnly = true;
-            this.txtDireccion.Size = new System.Drawing.Size(308, 23);
-            this.txtDireccion.TabIndex = 0;
             // 
             // btnExplorar
             // 
@@ -98,17 +89,51 @@
             // 
             this.degradePanel1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.degradePanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
+            this.degradePanel1.Controls.Add(this.txtDireccion);
             this.degradePanel1.Controls.Add(this.label1);
             this.degradePanel1.Controls.Add(this.pictureBox5);
             this.degradePanel1.Controls.Add(this.lblDire);
             this.degradePanel1.Controls.Add(this.button1);
-            this.degradePanel1.Controls.Add(this.txtDireccion);
             this.degradePanel1.Controls.Add(this.btnExplorar);
             this.degradePanel1.Location = new System.Drawing.Point(405, 165);
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(845, 507);
             this.degradePanel1.TabIndex = 5;
-            this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
+            this.txtDireccion.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtDireccion.ForeColor = System.Drawing.Color.White;
+            this.txtDireccion.Location = new System.Drawing.Point(255, 125);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.ReadOnly = true;
+            this.txtDireccion.Size = new System.Drawing.Size(310, 30);
+            this.txtDireccion.TabIndex = 0;
+            this.txtDireccion.Text = "";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(330, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(169, 32);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Subir Archivo";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = global::UI.Properties.Resources.Line_2;
+            this.pictureBox5.Location = new System.Drawing.Point(16, 34);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(826, 44);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 8;
+            this.pictureBox5.TabStop = false;
             // 
             // btnMax
             // 
@@ -153,29 +178,7 @@
             this.btnVolver.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnVolver.TabIndex = 26;
             this.btnVolver.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(330, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 32);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Subir Archivo";
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::UI.Properties.Resources.Line_2;
-            this.pictureBox5.Location = new System.Drawing.Point(16, 34);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(826, 44);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 8;
-            this.pictureBox5.TabStop = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // SubirPDF
             // 
@@ -194,18 +197,16 @@
             this.Text = "SubirPDF";
             this.degradePanel1.ResumeLayout(false);
             this.degradePanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private TextBox txtDireccion;
         private Button btnExplorar;
         private Label lblDire;
         private Button button1;
@@ -216,5 +217,6 @@
         private PictureBox btnVolver;
         private Label label1;
         private PictureBox pictureBox5;
+        private RichTextBox txtDireccion;
     }
 }
