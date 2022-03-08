@@ -128,5 +128,5 @@ C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.ShellExtensions.dll
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirPDF.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll

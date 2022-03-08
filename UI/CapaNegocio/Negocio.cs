@@ -210,7 +210,7 @@ namespace CapaNegocio
 
         }
 
-        public void subirImg(string path, DriveService service)
+        public void subirPdf(string path, DriveService service)
         {
             var fileMetadata= new Google.Apis.Drive.v3.Data.File();
             fileMetadata.Name = Path.GetFileName(path);
