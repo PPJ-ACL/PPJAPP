@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.degradePanel1 = new UI.DegradePanel();
+            this.txtValUsu = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.txtTipoUsuario = new System.Windows.Forms.TextBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
@@ -44,7 +45,6 @@
             this.btnLogin = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtValUsu = new System.Windows.Forms.TextBox();
             this.degradePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
@@ -80,6 +80,14 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(461, 693);
             this.degradePanel1.TabIndex = 0;
+            this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
+            // 
+            // txtValUsu
+            // 
+            this.txtValUsu.Location = new System.Drawing.Point(242, 655);
+            this.txtValUsu.Name = "txtValUsu";
+            this.txtValUsu.Size = new System.Drawing.Size(100, 23);
+            this.txtValUsu.TabIndex = 15;
             // 
             // button1
             // 
@@ -244,13 +252,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // txtValUsu
-            // 
-            this.txtValUsu.Location = new System.Drawing.Point(242, 655);
-            this.txtValUsu.Name = "txtValUsu";
-            this.txtValUsu.Size = new System.Drawing.Size(100, 23);
-            this.txtValUsu.TabIndex = 15;
             // 
             // Form1
             // 

@@ -40,5 +40,8 @@
     <Compile Update="TipUI.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="VistaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

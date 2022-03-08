@@ -72,5 +72,10 @@ namespace UI
             });
             ng.subirImg("C:\\demoDrive\\EjemploMERN.pdf", service);
         }
+
+        private void degradePanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

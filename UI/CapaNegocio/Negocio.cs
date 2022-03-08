@@ -110,10 +110,16 @@ namespace CapaNegocio
 
             return msge;
         }
-         /*
-         Codigo para enviar un correo bajo el sistema de soporte
-         Desarrollado el 07/03/2022
-        */
+
+        public void subirImg(string v, DriveService service)
+        {
+            throw new NotImplementedException();
+        }
+
+        /*
+Codigo para enviar un correo bajo el sistema de soporte
+Desarrollado el 07/03/2022
+*/
         public string enviarCorreoContactos(string to, string asunto, string body)
         {
             //Msg Error

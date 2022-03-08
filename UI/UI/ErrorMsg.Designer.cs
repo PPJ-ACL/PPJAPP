@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.degradePanel1 = new UI.DegradePanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lblError = new System.Windows.Forms.Label();
             this.btnAceptar = new System.Windows.Forms.Button();
+            this.lblError = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.degradePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -49,29 +49,6 @@
             this.degradePanel1.Size = new System.Drawing.Size(500, 200);
             this.degradePanel1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::UI.Properties.Resources.ACL_1_;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 85);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // lblError
-            // 
-            this.lblError.AutoSize = true;
-            this.lblError.BackColor = System.Drawing.Color.Transparent;
-            this.lblError.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblError.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblError.Location = new System.Drawing.Point(106, 40);
-            this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(62, 30);
-            this.lblError.TabIndex = 1;
-            this.lblError.Text = "Error:";
-            // 
             // btnAceptar
             // 
             this.btnAceptar.BackColor = System.Drawing.Color.Transparent;
@@ -79,13 +56,37 @@
             this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnAceptar.ForeColor = System.Drawing.SystemColors.Control;
             this.btnAceptar.Image = global::UI.Properties.Resources.Boton_Login;
-            this.btnAceptar.Location = new System.Drawing.Point(150, 95);
+            this.btnAceptar.Location = new System.Drawing.Point(150, 90);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(200, 55);
+            this.btnAceptar.Size = new System.Drawing.Size(247, 70);
             this.btnAceptar.TabIndex = 2;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
+            // lblError
+            // 
+            this.lblError.AutoSize = true;
+            this.lblError.BackColor = System.Drawing.Color.Transparent;
+            this.lblError.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblError.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblError.Location = new System.Drawing.Point(150, 41);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(62, 30);
+            this.lblError.TabIndex = 1;
+            this.lblError.Text = "Error:";
+            this.lblError.Click += new System.EventHandler(this.lblError_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::UI.Properties.Resources.ACL_1_;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(93, 95);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // ErrorMsg
             // 

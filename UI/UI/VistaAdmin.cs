@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace UI
 {
-    public partial class ErrorMsg : Form
+    public partial class Vista_Admin : Form
     {
-        public ErrorMsg()
+        public Vista_Admin()
         {
             InitializeComponent();
-        }
-
-        private void btnAceptar_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-        }
-
-        private void lblError_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
