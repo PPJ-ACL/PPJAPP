@@ -51,9 +51,9 @@ namespace UI
             using (var stream =
                 new FileStream("credentials.json", FileMode.Open, FileAccess.Read))
             {
-                // The file token.json stores the user's access and refresh tokens, and is created
-                // automatically when the authorization flow completes for the first time.
-                //GoogleClientSecrets.Load
+                //El archivo token.json almacena los tokens de acceso y actualización del usuario
+                ////y se crea automáticamente cuando el flujo de autorización se completa por primera vez. 
+                //GoogleClientSecrets.load
                 string credPath = "token.json";
                 credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
                     GoogleClientSecrets.FromStream(stream).Secrets,
@@ -64,7 +64,7 @@ namespace UI
                 Console.WriteLine("Credential file saved to: " + credPath);
             }
             string ApplicationName = "SAPJ ACL";
-            // Create Drive API service.
+            // Creacion del api
             var service = new DriveService(new BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,

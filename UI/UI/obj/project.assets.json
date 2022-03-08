@@ -722,19 +722,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Guachupe\\.nuget\\packages\\": {}
+    "C:\\Users\\maruxan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
-      "packagesPath": "C:\\Users\\Guachupe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\UI\\obj\\",
+      "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\maruxan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Guachupe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maruxan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -748,14 +748,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj": {
-              "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj"
+            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj": {
+              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj"
             },
-            "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaDTO\\CapaDTO.csproj": {
-              "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaDTO\\CapaDTO.csproj"
+            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaDTO\\CapaDTO.csproj": {
+              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaDTO\\CapaDTO.csproj"
             },
-            "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaNegocio\\CapaNegocio.csproj": {
-              "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaNegocio\\CapaNegocio.csproj"
+            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaNegocio\\CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaNegocio\\CapaNegocio.csproj"
             }
           }
         }
@@ -810,7 +810,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "El paquete \"Microsoft.WindowsAPICodePack-Shell 1.1.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net6.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "message": "Package 'Microsoft.WindowsAPICodePack-Shell 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.WindowsAPICodePack-Shell",
       "targetGraphs": [
         "net6.0-windows7.0"
