@@ -23,7 +23,10 @@ namespace UI
             InitializeComponent();
             CenterToScreen();
         }
-
+        /*
+        Abrir Archivo
+        Desarrollado 07/03 08/03
+        */
         private void btnExplorar_Click(object sender, EventArgs e)
         {
             CommonOpenFileDialog dlg = new CommonOpenFileDialog();
@@ -42,7 +45,10 @@ namespace UI
                 
             }
         }
-
+        /*
+        Subir PDF por Luis C
+        Desarrollado 07/03 - 08/03
+        */
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -56,7 +62,6 @@ namespace UI
                 {
                     //El archivo token.json almacena los tokens de acceso y actualización del usuario
                     ////y se crea automáticamente cuando el flujo de autorización se completa por primera vez. 
-                    //GoogleClientSecrets.load
                     string credPath = "token.json";
                     credential = GoogleWebAuthorizationBroker.AuthorizeAsync(
                         GoogleClientSecrets.FromStream(stream).Secrets,
@@ -74,7 +79,7 @@ namespace UI
                     ApplicationName = ApplicationName,
                 });
                 ng.subirPdf(txtDireccion.Text, service);
-
+                //Mensaje de ERROR
                 ErrorMsg em = new ErrorMsg();
                 em.lblError.Text = "Se subío correctamente a Drive";
                 em.Show();
@@ -88,12 +93,22 @@ namespace UI
             }
             
         }
-
+        //Cambio Ventana
         private void btnVolver_Click(object sender, EventArgs e)
         {
             Vista_Admin va = new Vista_Admin();
             va.Show();
             this.Hide();
+        }
+        //Cerrar App
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        //Minimizar App
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

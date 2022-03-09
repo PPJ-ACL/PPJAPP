@@ -47,7 +47,7 @@ namespace UI
             
         }
 
-
+        //Cerrar App
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -56,11 +56,12 @@ namespace UI
         {
 
         }
+        //Minimizar App
         private void btnMinimizar_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
+        //Cambio Ventana
         private void btnVolver_Click(object sender, EventArgs e)
         {
             ConfigUI config = new ConfigUI();

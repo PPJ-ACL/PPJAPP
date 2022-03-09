@@ -16,15 +16,11 @@ namespace UI
         {
             InitializeComponent();
         }
-
+        //Esconder Ventana Error
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             this.Hide();
         }
 
-        private void lblError_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

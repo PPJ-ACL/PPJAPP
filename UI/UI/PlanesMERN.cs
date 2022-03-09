@@ -21,7 +21,7 @@ namespace UI
             CenterToScreen();
             clie = new WebClient();
         }
-
+        //Cambio Ventana
         private void btnVolver_Click(object sender, EventArgs e)
         {
             PlanEstudio planEstudio = new PlanEstudio();

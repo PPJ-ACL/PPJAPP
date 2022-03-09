@@ -137,7 +137,6 @@
             this.label2.Size = new System.Drawing.Size(179, 32);
             this.label2.TabIndex = 9;
             this.label2.Text = "Desconectarse";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnBug
             // 
@@ -286,7 +285,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ConfigUI";
             this.Text = "TipsUI";
-            this.Load += new System.EventHandler(this.TipsUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();

@@ -18,10 +18,6 @@ namespace UI
             CenterToScreen();
         }
 
-        private void TipsUI_Load(object sender, EventArgs e)
-        {
-
-        }
 
 
         /*
@@ -35,12 +31,7 @@ namespace UI
             this.Close();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
+        //Cerrar App
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -50,7 +41,7 @@ namespace UI
         {
 
         }
-
+        //Minimizar App
         private void btnMin_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;

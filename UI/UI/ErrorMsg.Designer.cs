@@ -75,7 +75,6 @@
             this.lblError.Size = new System.Drawing.Size(62, 30);
             this.lblError.TabIndex = 1;
             this.lblError.Text = "Error:";
-            this.lblError.Click += new System.EventHandler(this.lblError_Click);
             // 
             // pictureBox1
             // 

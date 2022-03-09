@@ -20,24 +20,24 @@ namespace UI
             CenterToScreen();
             clie = new WebClient();
         }
-
+        //Cerrar App
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
+        //Minimizar App
         private void btnMin_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
+        //Cambio Ventana
         private void btnVolver_Click(object sender, EventArgs e)
         {
             TipUI tipUI = new TipUI();  
             tipUI.Show();
             this.Close();
         }
-
+        //Guardar PDF
         private void btnPDF1_Click(object sender, EventArgs e)
         {
             try
