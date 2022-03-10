@@ -48,6 +48,7 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(500, 200);
             this.degradePanel1.TabIndex = 0;
+            this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
             // 
             // btnAceptar
             // 

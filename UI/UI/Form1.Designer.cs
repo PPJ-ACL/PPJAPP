@@ -78,6 +78,8 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(461, 693);
             this.degradePanel1.TabIndex = 0;
+            this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
+            this.degradePanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.degradePanel1_MouseDown);
             // 
             // txtValUsu
             // 

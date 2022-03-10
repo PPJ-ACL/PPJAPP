@@ -42,6 +42,7 @@
             this.btnEstudio = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.degradePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnBug)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogout)).BeginInit();
@@ -212,6 +213,14 @@
             this.btnVolver.TabStop = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::UI.Properties.Resources.imagen_4;
+            this.panel1.Location = new System.Drawing.Point(0, -1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1319, 802);
+            this.panel1.TabIndex = 29;
+            // 
             // AyudaUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -221,10 +230,13 @@
             this.ClientSize = new System.Drawing.Size(1320, 800);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.degradePanel1);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AyudaUI";
             this.Text = "AyudaUI";
+            this.Load += new System.EventHandler(this.AyudaUI_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.AyudaUI_Paint);
             this.degradePanel1.ResumeLayout(false);
             this.degradePanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnBug)).EndInit();
@@ -256,5 +268,6 @@
         private PictureBox btnLogout;
         private PictureBox btnBug;
         private TextBox textBox1;
+        private Panel panel1;
     }
 }

@@ -46,6 +46,7 @@
             this.btnAyuda = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
@@ -265,6 +266,14 @@
             this.btnVolver.TabStop = false;
             this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::UI.Properties.Resources.imagen_4;
+            this.panel1.Location = new System.Drawing.Point(-1, -2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1301, 802);
+            this.panel1.TabIndex = 35;
+            // 
             // ConfigUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -281,10 +290,12 @@
             this.Controls.Add(this.btnMax);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMin);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ConfigUI";
             this.Text = "TipsUI";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.ConfigUI_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).EndInit();
@@ -323,5 +334,6 @@
         private PictureBox btnAyuda;
         private PictureBox pictureBox10;
         private PictureBox btnVolver;
+        private Panel panel1;
     }
 }

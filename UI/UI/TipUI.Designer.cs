@@ -46,6 +46,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnAyuda = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSalir)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
@@ -61,6 +62,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnMax
@@ -244,7 +246,7 @@
             // 
             this.btnAyuda.BackColor = System.Drawing.Color.Transparent;
             this.btnAyuda.Image = global::UI.Properties.Resources.Pregunta_Icon;
-            this.btnAyuda.Location = new System.Drawing.Point(245, 301);
+            this.btnAyuda.Location = new System.Drawing.Point(256, 353);
             this.btnAyuda.Name = "btnAyuda";
             this.btnAyuda.Size = new System.Drawing.Size(70, 70);
             this.btnAyuda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -255,12 +257,23 @@
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox10.Image = global::UI.Properties.Resources.Brazuca_Sitting1;
-            this.pictureBox10.Location = new System.Drawing.Point(43, 317);
+            this.pictureBox10.Location = new System.Drawing.Point(75, 341);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(282, 482);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox10.Size = new System.Drawing.Size(259, 456);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 31;
             this.pictureBox10.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::UI.Properties.Resources.imagen_4;
+            this.panel1.Controls.Add(this.btnAyuda);
+            this.panel1.Controls.Add(this.pictureBox10);
+            this.panel1.Location = new System.Drawing.Point(-1, -1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1323, 800);
+            this.panel1.TabIndex = 35;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // TipUI
             // 
@@ -271,13 +284,12 @@
             this.ClientSize = new System.Drawing.Size(1320, 800);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.btnAyuda);
-            this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.btnVolver);
             this.Controls.Add(this.degradePanel1);
             this.Controls.Add(this.btnMax);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMin);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TipUI";
@@ -298,6 +310,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -322,5 +335,6 @@
         private Label label5;
         private PictureBox btnAyuda;
         private PictureBox pictureBox10;
+        private Panel panel1;
     }
 }

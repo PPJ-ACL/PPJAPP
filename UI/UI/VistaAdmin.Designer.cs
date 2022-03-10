@@ -28,59 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.degradePanel1 = new UI.DegradePanel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnVistaUsuario = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnMax = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.txtTipoUsuario = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.degradePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnVistaUsuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImage = global::UI.Properties.Resources.Icono_Usuarios;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(175, 269);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 135);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.BackgroundImage = global::UI.Properties.Resources.Group_19;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Location = new System.Drawing.Point(424, 269);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 135);
-            this.button3.TabIndex = 5;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // degradePanel1
             // 
             this.degradePanel1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.degradePanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
+            this.degradePanel1.Controls.Add(this.pictureBox2);
+            this.degradePanel1.Controls.Add(this.btnVistaUsuario);
             this.degradePanel1.Controls.Add(this.label1);
             this.degradePanel1.Controls.Add(this.label2);
-            this.degradePanel1.Controls.Add(this.button3);
-            this.degradePanel1.Controls.Add(this.button1);
-            this.degradePanel1.Location = new System.Drawing.Point(354, 58);
+            this.degradePanel1.Location = new System.Drawing.Point(372, 94);
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(781, 577);
             this.degradePanel1.TabIndex = 6;
+            this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::UI.Properties.Resources.Group_19;
+            this.pictureBox2.Location = new System.Drawing.Point(429, 254);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(134, 135);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // btnVistaUsuario
+            // 
+            this.btnVistaUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.btnVistaUsuario.Image = global::UI.Properties.Resources.Icono_Usuarios;
+            this.btnVistaUsuario.Location = new System.Drawing.Point(171, 254);
+            this.btnVistaUsuario.Name = "btnVistaUsuario";
+            this.btnVistaUsuario.Size = new System.Drawing.Size(134, 135);
+            this.btnVistaUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnVistaUsuario.TabIndex = 10;
+            this.btnVistaUsuario.TabStop = false;
+            this.btnVistaUsuario.Click += new System.EventHandler(this.btnVistaUsuario_Click);
             // 
             // label1
             // 
@@ -148,6 +151,16 @@
             this.txtTipoUsuario.Size = new System.Drawing.Size(100, 23);
             this.txtTipoUsuario.TabIndex = 22;
             // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::UI.Properties.Resources.imagen_4;
+            this.panel1.Controls.Add(this.degradePanel1);
+            this.panel1.Location = new System.Drawing.Point(0, -2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1300, 802);
+            this.panel1.TabIndex = 23;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
+            // 
             // Vista_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -158,26 +171,27 @@
             this.ClientSize = new System.Drawing.Size(1300, 800);
             this.Controls.Add(this.txtTipoUsuario);
             this.Controls.Add(this.btnMax);
-            this.Controls.Add(this.degradePanel1);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnMinimizar);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Vista_Admin";
             this.Text = "Vista_Admin";
+            this.Load += new System.EventHandler(this.Vista_Admin_Load);
             this.degradePanel1.ResumeLayout(false);
             this.degradePanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnVistaUsuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private Button button1;
-        private Button button3;
         private DegradePanel degradePanel1;
         private Label label1;
         private Label label2;
@@ -185,5 +199,8 @@
         private PictureBox btnCerrar;
         private PictureBox btnMinimizar;
         public TextBox txtTipoUsuario;
+        private Panel panel1;
+        private PictureBox pictureBox2;
+        private PictureBox btnVistaUsuario;
     }
 }

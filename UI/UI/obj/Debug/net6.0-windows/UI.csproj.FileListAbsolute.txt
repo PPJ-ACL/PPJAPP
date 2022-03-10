@@ -132,3 +132,14 @@ C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirPDF
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ErrorMsg.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.Vista_Admin.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.PlatformServices.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Core.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.ErrorMsg.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.SubirPDF.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.Vista_Admin.resources

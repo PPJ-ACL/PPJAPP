@@ -44,3 +44,19 @@ C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Core.
 C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.pdb
 C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.xml
 C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Core.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.pdb
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.xml
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.xml
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Core.pdb
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Core.xml
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.pdb
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.xml
+C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
