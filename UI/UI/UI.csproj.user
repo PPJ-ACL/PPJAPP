@@ -4,6 +4,9 @@
     <Compile Update="AyudaUI.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ContactosUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="DegradePanel.cs">
       <SubType>Component</SubType>
     </Compile>

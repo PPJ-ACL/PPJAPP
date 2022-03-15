@@ -212,5 +212,12 @@ namespace UI
             //Llamada a la funcion
             FormRegionAndBorder(this, borderRadius, e.Graphics, borderColor, borderSize);
         }
+
+        private void btnContacto_Click(object sender, EventArgs e)
+        {
+            ContactosUI contactosUI = new ContactosUI();
+            contactosUI.Location = new Point
+            contactosUI.Show();
+        }
     }
 }

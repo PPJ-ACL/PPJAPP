@@ -143,6 +143,16 @@ namespace UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Contactos_Icon {
+            get {
+                object obj = ResourceManager.GetObject("Contactos Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Group_19 {
             get {
                 object obj = ResourceManager.GetObject("Group 19", resourceCulture);
@@ -486,6 +496,16 @@ namespace UI.Properties {
         internal static System.Drawing.Bitmap Pregunta_Icon {
             get {
                 object obj = ResourceManager.GetObject("Pregunta Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tarjeta {
+            get {
+                object obj = ResourceManager.GetObject("Tarjeta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

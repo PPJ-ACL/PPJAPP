@@ -48,6 +48,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnContacto = new System.Windows.Forms.PictureBox();
             this.degradePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnConfig)).BeginInit();
@@ -62,6 +63,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnContacto)).BeginInit();
             this.SuspendLayout();
             // 
             // degradePanel1
@@ -284,6 +286,7 @@
             // panel1
             // 
             this.panel1.BackgroundImage = global::UI.Properties.Resources.imagen_4;
+            this.panel1.Controls.Add(this.btnContacto);
             this.panel1.Controls.Add(this.btnAyuda);
             this.panel1.Controls.Add(this.pictureBox10);
             this.panel1.Location = new System.Drawing.Point(-1, -4);
@@ -291,6 +294,18 @@
             this.panel1.Size = new System.Drawing.Size(1320, 825);
             this.panel1.TabIndex = 20;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // btnContacto
+            // 
+            this.btnContacto.BackColor = System.Drawing.Color.Transparent;
+            this.btnContacto.Image = global::UI.Properties.Resources.Contactos_Icon;
+            this.btnContacto.Location = new System.Drawing.Point(954, 725);
+            this.btnContacto.Name = "btnContacto";
+            this.btnContacto.Size = new System.Drawing.Size(308, 87);
+            this.btnContacto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnContacto.TabIndex = 19;
+            this.btnContacto.TabStop = false;
+            this.btnContacto.Click += new System.EventHandler(this.btnContacto_Click);
             // 
             // PanelPrincipal
             // 
@@ -328,6 +343,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnContacto)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -354,5 +370,6 @@
         private PictureBox pictureBox3;
         private Label label5;
         private Panel panel1;
+        private PictureBox btnContacto;
     }
 }
