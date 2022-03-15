@@ -150,6 +150,7 @@
             this.btnTMERN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnTMERN.TabIndex = 8;
             this.btnTMERN.TabStop = false;
+            this.btnTMERN.Click += new System.EventHandler(this.btnTMERN_Click);
             // 
             // btnTKarate
             // 

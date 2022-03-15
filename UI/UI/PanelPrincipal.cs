@@ -216,7 +216,7 @@ namespace UI
         private void btnContacto_Click(object sender, EventArgs e)
         {
             ContactosUI contactosUI = new ContactosUI();
-            contactosUI.Location = new Point
+            contactosUI.Location = new Point();
             contactosUI.Show();
         }
     }

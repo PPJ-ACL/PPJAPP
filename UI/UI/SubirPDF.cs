@@ -42,7 +42,10 @@ namespace UI
                     txtDireccion.Text = nombreArchivo;
                 }else
                 {
-                    MessageBox.Show("El Archivo seleccionado no es valido","SAPJ ACL Error:");
+                    
+                    ErrorMsg em = new ErrorMsg();
+                    em.lblError.Text = "El Archivo seleccionado no es valido";
+                    em.Show();
                 }
                 
             }

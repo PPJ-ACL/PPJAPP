@@ -26,5 +26,13 @@ namespace UI
             
             this.Hide();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            EnviarCorreo ec = new EnviarCorreo();
+            ec.correo = "agutierrez@acl.cl";
+            ec.Show();
+            this.Hide();
+        }
     }
 }

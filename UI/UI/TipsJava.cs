@@ -47,11 +47,17 @@ namespace UI
                 string linkurl = "https://drive.google.com/uc?id=18Wt6mPTm4tsYPraY0F-vQevSvSI4o8I9&export=download";
                 string almacenamiento = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\CheatsheetJS.pdf";
                 clie.DownloadFileAsync(new Uri(linkurl), almacenamiento);
-                MessageBox.Show("Se descargó con exito, favor revise su escritorio", "PPJ APP");
+                ErrorMsg em = new ErrorMsg();
+                em.lblError.Text = "Archivo descargado en el escritorio.";
+                em.Show();
+
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error:" + ex.Message, "PPJ APP Error");
+                
+                ErrorMsg em = new ErrorMsg();
+                em.lblError.Text = "Error:" + ex.Message;
+                em.Show();
             }
         }
         //Valores Bordes

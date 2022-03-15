@@ -143,3 +143,5 @@ C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Newtonsoft.Jso
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.ErrorMsg.resources
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.SubirPDF.resources
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.Vista_Admin.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ContactosUI.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.EnviarCorreo.resources
