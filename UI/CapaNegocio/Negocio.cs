@@ -165,11 +165,17 @@ namespace CapaNegocio
             Codigo para subir un PDF
             Desarrollado el 07/03/2022-08/03/2022
         */
-        public void subirPdf(string path, DriveService service)
+        public void subirPdfCarpeta(string path, DriveService service, string folderUp)
         {
             var fileMetadata= new Google.Apis.Drive.v3.Data.File();
             fileMetadata.Name = Path.GetFileName(path);
             fileMetadata.MimeType = "application/pdf";
+
+            fileMetadata.Parents = new List<string>
+            {
+                folderUp
+            };
+
             FilesResource.CreateMediaUpload request;
             using (var stream = new System.IO.FileStream(path,System.IO.FileMode.Open))
             {
@@ -179,6 +185,35 @@ namespace CapaNegocio
             }
             var file = request.ResponseBody;
             Console.WriteLine("File ID:" + file.Id);
+        }
+
+        public void subirPdf(string path, DriveService service)
+        {
+            var fileMetadata = new Google.Apis.Drive.v3.Data.File();
+            fileMetadata.Name = Path.GetFileName(path);
+            fileMetadata.MimeType = "application/pdf";
+            FilesResource.CreateMediaUpload request;
+            using (var stream = new System.IO.FileStream(path, System.IO.FileMode.Open))
+            {
+                request = service.Files.Create(fileMetadata, stream, "application/pdf");
+                request.Fields = "id";
+                request.Upload();
+            }
+            var file = request.ResponseBody;
+            Console.WriteLine("File ID:" + file.Id);
+        }
+        private static void crearCarpeta(string folderName, DriveService service)
+        {
+            var fileMetadata = new Google.Apis.Drive.v3.Data.File()
+            {
+                Name = folderName,
+                MimeType = "application/vnd.google-apps.folder"
+            };
+            var request = service.Files.Create(fileMetadata);
+            request.Fields = "id";
+            var file = request.Execute();
+            Console.WriteLine("Folder ID: " + file.Id);
+
         }
 
 
