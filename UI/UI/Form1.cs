@@ -78,11 +78,12 @@ namespace UI
                    
                 }else
                 {
+                    txtCorreo.Focus();
                     //Mensaje Error
                     ErrorMsg em = new ErrorMsg();
                     em.lblError.Text = "Error en el correo ingresado.";
                     em.Show();
-                    txtCorreo.Focus();
+                    
                 }
                 
             }
@@ -119,7 +120,7 @@ namespace UI
         */
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            String selectStock = "SELECT COUNT(Correo) AS NUMUSUARIO, TipoUsuario AS TIPOUSUARIO FROM VistaLogin WHERE VistaLogin.Correo = '" + txtCorreo.Text + "' AND VistaLogin.contrasenna = '" + txtContra.Text + "' GROUP BY TipoUsuario;";
+            String selectStock = "SELECT COUNT(Correo) AS NUMUSUARIO, IdTipo AS TIPOUSUARIO FROM VistaLogin WHERE VistaLogin.Correo = '" + txtCorreo.Text + "' AND VistaLogin.contrasenna = '" + txtContra.Text + "' GROUP BY IdTipo;";
             SqlConnection con = new SqlConnection(ConnectString);
             SqlCommand cmd = new SqlCommand(selectStock, con);
             SqlDataReader mReader;
@@ -130,14 +131,14 @@ namespace UI
                 while (mReader.Read())
                 {
                     int valUsu = mReader.GetInt32("NUMUSUARIO");
-                    string tipoUsu = mReader.GetString("TIPOUSUARIO");
+                    int tipoUsu = mReader.GetInt32("TIPOUSUARIO");
                     if (valUsu != 1)
                     { 
                     }
                     else
                     {
                         txtValUsu.Text = valUsu+"";
-                        txtTipoUsuario.Text = tipoUsu;
+                        txtTipoUsuario.Text = tipoUsu+"";
                     }
                 }
                 if (txtValUsu.Text != "1")
@@ -148,13 +149,13 @@ namespace UI
                 }
                 else
                 {  
-                    if(txtTipoUsuario.Text == "admin")
+                    if(txtTipoUsuario.Text == "1")
                     {
                         Vista_Admin va = new Vista_Admin();
                         va.txtTipoUsuario.Text = txtTipoUsuario.Text;
                         va.Show();
                         this.Hide();
-                    }else if(txtTipoUsuario.Text != "admin")
+                    }else if(txtTipoUsuario.Text != "1")
                     {
                         PanelPrincipal panel2 = new PanelPrincipal();
                         panel2.Show();

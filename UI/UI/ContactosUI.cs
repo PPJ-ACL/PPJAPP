@@ -17,10 +17,6 @@ namespace UI
             InitializeComponent();
         }
 
-        private void btnEstudio_Click(object sender, EventArgs e)
-        {
-                    }
-
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             
@@ -30,9 +26,65 @@ namespace UI
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             EnviarCorreo ec = new EnviarCorreo();
+            ec.correo = "a.abanero@acl.cl";
+            ec.Show();
+            this.Hide();
+        }
+        private void label2_Click(object sender, EventArgs e)
+        {
+            EnviarCorreo ec = new EnviarCorreo();
+            ec.correo = "a.abanero@acl.cl";
+            ec.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            EnviarCorreo ec = new EnviarCorreo();
+            ec.correo = "a.abanero@acl.cl";
+            ec.Show();
+            this.Hide();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            EnviarCorreo ec = new EnviarCorreo();
+            ec.correo = "a.abanero@acl.cl";
+            ec.Show();
+            this.Hide();
+        }
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            EnviarCorreo ec = new EnviarCorreo();
             ec.correo = "agutierrez@acl.cl";
             ec.Show();
             this.Hide();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            EnviarCorreo ec = new EnviarCorreo();
+            ec.correo = "agutierrez@acl.cl";
+            ec.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            EnviarCorreo ec = new EnviarCorreo();
+            ec.correo = "agutierrez@acl.cl";
+            ec.Show();
+            this.Hide();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            EnviarCorreo ec = new EnviarCorreo();
+            ec.correo = "agutierrez@acl.cl";
+            ec.Show();
+            this.Hide();
+        }
+
+
     }
 }

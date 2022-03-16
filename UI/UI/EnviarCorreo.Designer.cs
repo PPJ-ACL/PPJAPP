@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EnviarCorreo));
             this.degradePanel1 = new UI.DegradePanel();
+            this.btnVolver = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.degradePanel2 = new UI.DegradePanel();
@@ -38,11 +39,14 @@
             this.txtCorreo = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnVolver = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.degradePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.degradePanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // degradePanel1
@@ -60,6 +64,18 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(1319, 825);
             this.degradePanel1.TabIndex = 0;
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.Image = global::UI.Properties.Resources.Boton_Volver;
+            this.btnVolver.Location = new System.Drawing.Point(367, 744);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(236, 69);
+            this.btnVolver.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnVolver.TabIndex = 28;
+            this.btnVolver.TabStop = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // label5
             // 
@@ -88,6 +104,8 @@
             // 
             this.degradePanel2.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.degradePanel2.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(41)))), ((int)(((byte)(90)))));
+            this.degradePanel2.Controls.Add(this.pictureBox2);
+            this.degradePanel2.Controls.Add(this.pictureBox3);
             this.degradePanel2.Controls.Add(this.btnEnviar);
             this.degradePanel2.Controls.Add(this.txtMensaje);
             this.degradePanel2.Controls.Add(this.txtCorreo);
@@ -105,7 +123,7 @@
             this.btnEnviar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnEnviar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEnviar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnEnviar.Location = new System.Drawing.Point(320, 531);
+            this.btnEnviar.Location = new System.Drawing.Point(297, 531);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(303, 91);
             this.btnEnviar.TabIndex = 6;
@@ -135,6 +153,7 @@
             this.txtCorreo.Size = new System.Drawing.Size(471, 30);
             this.txtCorreo.TabIndex = 4;
             this.txtCorreo.Text = "";
+            this.txtCorreo.Leave += new System.EventHandler(this.txtCorreo_Leave);
             // 
             // label3
             // 
@@ -160,16 +179,27 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Correo";
             // 
-            // btnVolver
+            // pictureBox2
             // 
-            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
-            this.btnVolver.Image = global::UI.Properties.Resources.Boton_Volver;
-            this.btnVolver.Location = new System.Drawing.Point(367, 744);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(236, 69);
-            this.btnVolver.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnVolver.TabIndex = 28;
-            this.btnVolver.TabStop = false;
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::UI.Properties.Resources.PPJ;
+            this.pictureBox2.Location = new System.Drawing.Point(808, 547);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(95, 95);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::UI.Properties.Resources.ACL_1_;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 519);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
             // 
             // EnviarCorreo
             // 
@@ -185,10 +215,12 @@
             this.Text = "EnviarCorreo";
             this.degradePanel1.ResumeLayout(false);
             this.degradePanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.degradePanel2.ResumeLayout(false);
             this.degradePanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -205,5 +237,7 @@
         private Button btnEnviar;
         public RichTextBox txtCorreo;
         private PictureBox btnVolver;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
     }
 }
