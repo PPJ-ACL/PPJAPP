@@ -22,13 +22,25 @@ CREATE TABLE Profesional
 	Correo varchar(25) NOT NULL UNIQUE,
 	Telefono int NOT NULL,
 	Contrasenna varchar(15) NOT NULL,
-	TipoUsuario varchar(15)NOT NULL
+	IdTipo int 
 	)
 	
+GO
+CREATE TABLE TipoUsuario
+	(
+	IdTipo int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	NombreCargo varchar(50) NOT NULL
+	)
+GO
+ALTER TABLE Profesional  ADD  CONSTRAINT FK_Profesional_TipoUsuario FOREIGN KEY(IdTipo)
+REFERENCES TipoUsuario (IdTipo)
+GO
 --Datos de Prueba
-INSERT Profesional (Id, Rut, Nombre, APaterno, AMaterno, Correo, Telefono, Contrasenna, TipoUsuario) VALUES (1, '201607108', 'Luis', 'Cordova', 'Herrera', 'lcordova@acl.cl', 977760547, 'LCordova123','admin');
-INSERT Profesional (Id, Rut, Nombre, APaterno, AMaterno, Correo, Telefono, Contrasenna, TipoUsuario) VALUES (2, '14212856K', 'Manuel', 'Jara', 'Pereira', 'MJara@acl.cl', 977748888, 'MJara123','QA');
-
+INSERT TipoUsuario (NombreCargo) VALUES ('admin');
+INSERT TipoUsuario (NombreCargo) VALUES ('QA');
+INSERT TipoUsuario (NombreCargo) VALUES ('Desarrollador');
+INSERT Profesional (Id, Rut, Nombre, APaterno, AMaterno, Correo, Telefono, Contrasenna, IdTipo) VALUES (1, '201607108', 'Luis', 'Cordova', 'Herrera', 'lcordova@acl.cl', 977760547, 'LCordova123','1');
+INSERT Profesional (Id, Rut, Nombre, APaterno, AMaterno, Correo, Telefono, Contrasenna, IdTipo) VALUES (2, '14212856K', 'Manuel', 'Jara', 'Pereira', 'MJara@acl.cl', 977748888, 'MJara123','2');
 --Borrar Vistas
 GO
 DROP VIEW VistaLogin
@@ -36,6 +48,11 @@ DROP VIEW VistaLogin
 GO
 CREATE VIEW VistaLogin
 AS
-SELECT        Correo, Contrasenna
-FROM            Profesional
+SELECT        Correo, Contrasenna, tu.IdTipo
+FROM            Profesional p JOIN TipoUsuario tu ON p.IdTipo = tu.IdTipo
 
+GO
+--Consulta Muestra Datos
+SELECT Id,Rut,CONCAT(Nombre,' ',APaterno,' ',AMaterno) AS Nombre_Completo,Correo,Telefono FROM Profesional;
+GO
+SELECT IdTipo, NombreCargo FROM TipoUsuario;
