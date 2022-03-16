@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vista_Admin));
             this.degradePanel1 = new UI.DegradePanel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnVistaUsuario = new System.Windows.Forms.PictureBox();
@@ -175,6 +176,7 @@
             this.Controls.Add(this.btnMinimizar);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Vista_Admin";
             this.Text = "Vista_Admin";
             this.Load += new System.EventHandler(this.Vista_Admin_Load);

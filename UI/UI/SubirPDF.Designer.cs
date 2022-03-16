@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SubirPDF));
             this.btnExplorar = new System.Windows.Forms.Button();
             this.lblDire = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -186,9 +187,10 @@
             // panel1
             // 
             this.panel1.BackgroundImage = global::UI.Properties.Resources.imagen_4;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1300, 802);
+            this.panel1.Size = new System.Drawing.Size(1300, 800);
             this.panel1.TabIndex = 27;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -206,6 +208,7 @@
             this.Controls.Add(this.degradePanel1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SubirPDF";
             this.Text = "SubirPDF";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.SubirPDF_Paint);

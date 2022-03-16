@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ErrorMsg));
             this.degradePanel1 = new UI.DegradePanel();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.lblError = new System.Windows.Forms.Label();
@@ -95,6 +96,7 @@
             this.ClientSize = new System.Drawing.Size(500, 200);
             this.Controls.Add(this.degradePanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ErrorMsg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ErrorMsg";

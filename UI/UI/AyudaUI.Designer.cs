@@ -216,9 +216,10 @@
             // panel1
             // 
             this.panel1.BackgroundImage = global::UI.Properties.Resources.imagen_4;
-            this.panel1.Location = new System.Drawing.Point(0, -1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1319, 802);
+            this.panel1.Size = new System.Drawing.Size(1320, 800);
             this.panel1.TabIndex = 29;
             // 
             // AyudaUI
