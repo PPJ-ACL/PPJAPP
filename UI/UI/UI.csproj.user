@@ -40,6 +40,9 @@
     <Compile Update="SubirPDF.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="SubirTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="TipsJava.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -217,6 +217,52 @@ namespace CapaNegocio
         }
 
 
+        public void ListFiles(DriveService service, ref string pageToken)
+        {
+            // Define parameters of request.
+            FilesResource.ListRequest listRequest = service.Files.List();
+            listRequest.PageSize = 1;
+            //listRequest.Fields = "nextPageToken, files(id, name)";
+            listRequest.Fields = "nextPageToken, files(name)";
+            listRequest.PageToken = pageToken;
+            listRequest.Q = "mimeType='application/pdf'";
+
+            // List files.
+            var request = listRequest.Execute();
+
+
+            if (request.Files != null && request.Files.Count > 0)
+            {
+
+
+                foreach (var file in request.Files)
+                {
+                    Console.WriteLine("{0}", file.Name);
+
+                }
+
+                pageToken = request.NextPageToken;
+
+                if (request.NextPageToken != null)
+                {
+                    Console.WriteLine("Press any key to conti...");
+                    Console.ReadLine();
+
+
+
+                }
+
+
+            }
+            else
+            {
+                Console.WriteLine("No files found.");
+
+            }
+
+
+        }
+
 
 
 

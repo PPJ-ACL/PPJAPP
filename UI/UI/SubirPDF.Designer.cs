@@ -33,6 +33,7 @@
             this.lblDire = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.degradePanel1 = new UI.DegradePanel();
+            this.button2 = new System.Windows.Forms.Button();
             this.txtDireccion = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -91,6 +92,7 @@
             // 
             this.degradePanel1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.degradePanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
+            this.degradePanel1.Controls.Add(this.button2);
             this.degradePanel1.Controls.Add(this.txtDireccion);
             this.degradePanel1.Controls.Add(this.label1);
             this.degradePanel1.Controls.Add(this.pictureBox5);
@@ -101,6 +103,16 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(845, 507);
             this.degradePanel1.TabIndex = 5;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(595, 328);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(137, 58);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // txtDireccion
             // 
@@ -236,5 +248,6 @@
         private PictureBox pictureBox5;
         private RichTextBox txtDireccion;
         private Panel panel1;
+        private Button button2;
     }
 }

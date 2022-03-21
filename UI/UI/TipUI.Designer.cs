@@ -139,6 +139,7 @@
             this.btnTPostMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnTPostMan.TabIndex = 9;
             this.btnTPostMan.TabStop = false;
+            this.btnTPostMan.Click += new System.EventHandler(this.btnTPostMan_Click);
             // 
             // btnTMERN
             // 
@@ -162,6 +163,7 @@
             this.btnTKarate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnTKarate.TabIndex = 7;
             this.btnTKarate.TabStop = false;
+            this.btnTKarate.Click += new System.EventHandler(this.btnTKarate_Click);
             // 
             // label1
             // 

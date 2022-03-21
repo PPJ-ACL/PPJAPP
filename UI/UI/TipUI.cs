@@ -207,5 +207,15 @@ namespace UI
         {
 
         }
+
+        private void btnTKarate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTPostMan_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

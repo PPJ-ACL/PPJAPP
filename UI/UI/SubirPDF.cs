@@ -15,15 +15,18 @@ using Google.Apis.Util.Store;
 using Microsoft.WindowsAPICodePack.Dialogs;
 using System.Drawing.Drawing2D;//Agregar en cada Ventana
 using System.Runtime.InteropServices;//Agregar en cada ventana
+using Google.Apis.Drive.v3.Data;
 
 namespace UI
 {
     public partial class SubirPDF : Form
     {
+        public string nombreCarpeta="";
+        public string idCarpeta="";
         public SubirPDF()
         {
             InitializeComponent();
-            CenterToScreen();
+            CenterToScreen();   
         }
         /*
         Abrir Archivo
@@ -83,7 +86,7 @@ namespace UI
                     HttpClientInitializer = credential,
                     ApplicationName = ApplicationName,
                 });
-                ng.subirPdf(txtDireccion.Text, service);
+                ng.subirPdfCarpeta(txtDireccion.Text, service,idCarpeta);
                 //Mensaje de ERROR
                 ErrorMsg em = new ErrorMsg();
                 em.lblError.Text = "Se subío correctamente a Drive";
@@ -103,9 +106,11 @@ namespace UI
         //Cambio Ventana
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            Vista_Admin va = new Vista_Admin();
-            va.Show();
+            SubirTip st = new SubirTip();
+            st.Show();
             this.Hide();
+            
+
         }
         //Cerrar App
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -278,6 +283,11 @@ namespace UI
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(nombreCarpeta + " " + idCarpeta);
         }
     }
 }

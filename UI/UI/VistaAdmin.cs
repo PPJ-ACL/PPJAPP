@@ -207,8 +207,8 @@ namespace UI
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            SubirPDF sp = new SubirPDF();
-            sp.Show();
+            SubirTip st = new SubirTip();
+            st.Show();
             this.Hide();
         }
 
