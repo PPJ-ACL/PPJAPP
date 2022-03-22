@@ -106,9 +106,24 @@ namespace UI
         //Cambio Ventana
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            SubirTip st = new SubirTip();
-            st.Show();
-            this.Hide();
+            if(txtSubirProcedencia.Text == "PlanEstudio")
+            {
+                SubirPlan sp = new SubirPlan();
+                sp.Show();
+                this.Hide();
+            }else if(txtSubirProcedencia.Text == "Tip")
+            {
+                SubirTip st = new SubirTip();
+                st.Show();
+                this.Hide();
+            }
+            else
+            {
+                SubirTip st = new SubirTip();
+                st.Show();
+                this.Hide();
+            }
+            
             
 
         }

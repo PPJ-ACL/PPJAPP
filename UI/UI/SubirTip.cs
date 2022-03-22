@@ -63,7 +63,8 @@ namespace UI
                             sp.nombreCarpeta = driveFile.Name;
                             sp.idCarpeta = driveFile.Id;
                             sp.Show();
-                            this.Hide();                            
+                            this.Hide();
+                            sp.txtSubirProcedencia.Text = "Tip";
                         }
 
                     }
@@ -120,6 +121,7 @@ namespace UI
                             sp.idCarpeta = driveFile.Id;
                             sp.Show();
                             this.Hide();
+                            sp.txtSubirProcedencia.Text = "Tip";
                         }
 
                     }
@@ -175,6 +177,7 @@ namespace UI
                             sp.idCarpeta = driveFile.Id;
                             sp.Show();
                             this.Hide();
+                            sp.txtSubirProcedencia.Text = "Tip";
                         }
 
                     }
@@ -230,6 +233,7 @@ namespace UI
                             sp.idCarpeta = driveFile.Id;
                             sp.Show();
                             this.Hide();
+                            sp.txtSubirProcedencia.Text = "Tip";
                         }
 
                     }
@@ -248,6 +252,23 @@ namespace UI
             Vista_Admin va = new Vista_Admin();
             va.Show();
             this.Hide();
+        }
+
+        private void btnSubirPlan_Click(object sender, EventArgs e)
+        {
+            SubirPlan sp = new SubirPlan();
+            sp.Show();
+            this.Hide();
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

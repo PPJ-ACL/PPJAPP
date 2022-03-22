@@ -146,3 +146,4 @@ C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.Vista_Admin
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ContactosUI.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.EnviarCorreo.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirTip.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirPlan.resources

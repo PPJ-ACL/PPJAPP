@@ -42,6 +42,7 @@
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtSubirProcedencia = new System.Windows.Forms.TextBox();
             this.degradePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
@@ -92,6 +93,7 @@
             // 
             this.degradePanel1.ColorBottom = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(41)))), ((int)(((byte)(55)))));
             this.degradePanel1.ColorTop = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(41)))), ((int)(((byte)(87)))));
+            this.degradePanel1.Controls.Add(this.txtSubirProcedencia);
             this.degradePanel1.Controls.Add(this.button2);
             this.degradePanel1.Controls.Add(this.txtDireccion);
             this.degradePanel1.Controls.Add(this.label1);
@@ -206,6 +208,13 @@
             this.panel1.TabIndex = 27;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // txtSubirProcedencia
+            // 
+            this.txtSubirProcedencia.Location = new System.Drawing.Point(3, 481);
+            this.txtSubirProcedencia.Name = "txtSubirProcedencia";
+            this.txtSubirProcedencia.Size = new System.Drawing.Size(100, 23);
+            this.txtSubirProcedencia.TabIndex = 10;
+            // 
             // SubirPDF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -249,5 +258,6 @@
         private RichTextBox txtDireccion;
         private Panel panel1;
         private Button button2;
+        public TextBox txtSubirProcedencia;
     }
 }

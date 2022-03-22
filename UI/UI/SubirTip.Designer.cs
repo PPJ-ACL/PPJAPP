@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SubirTip));
             this.degradePanel1 = new UI.DegradePanel();
+            this.btnSubirPlan = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.PictureBox();
             this.degradePanel2 = new UI.DegradePanel();
             this.btnTJava = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,16 +39,20 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btnTMERN = new System.Windows.Forms.PictureBox();
             this.btnTKarate = new System.Windows.Forms.PictureBox();
-            this.btnVolver = new System.Windows.Forms.PictureBox();
-            this.btnAceptar = new System.Windows.Forms.Button();
+            this.btnMax = new System.Windows.Forms.PictureBox();
+            this.btnCerrar = new System.Windows.Forms.PictureBox();
+            this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.degradePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).BeginInit();
             this.degradePanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnTJava)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTPostMan)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTMERN)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTKarate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
             this.SuspendLayout();
             // 
             // degradePanel1
@@ -55,7 +61,10 @@
             this.degradePanel1.BackgroundImage = global::UI.Properties.Resources.imagen_4;
             this.degradePanel1.ColorBottom = System.Drawing.Color.Empty;
             this.degradePanel1.ColorTop = System.Drawing.Color.Empty;
-            this.degradePanel1.Controls.Add(this.btnAceptar);
+            this.degradePanel1.Controls.Add(this.btnMax);
+            this.degradePanel1.Controls.Add(this.btnCerrar);
+            this.degradePanel1.Controls.Add(this.btnMinimizar);
+            this.degradePanel1.Controls.Add(this.btnSubirPlan);
             this.degradePanel1.Controls.Add(this.btnVolver);
             this.degradePanel1.Controls.Add(this.degradePanel2);
             this.degradePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -63,6 +72,33 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(1300, 800);
             this.degradePanel1.TabIndex = 0;
+            // 
+            // btnSubirPlan
+            // 
+            this.btnSubirPlan.BackColor = System.Drawing.Color.Transparent;
+            this.btnSubirPlan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSubirPlan.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSubirPlan.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnSubirPlan.Image = global::UI.Properties.Resources.Boton_Login;
+            this.btnSubirPlan.Location = new System.Drawing.Point(800, 695);
+            this.btnSubirPlan.Name = "btnSubirPlan";
+            this.btnSubirPlan.Size = new System.Drawing.Size(236, 69);
+            this.btnSubirPlan.TabIndex = 29;
+            this.btnSubirPlan.Text = "Subir Plan de Estudio";
+            this.btnSubirPlan.UseVisualStyleBackColor = false;
+            this.btnSubirPlan.Click += new System.EventHandler(this.btnSubirPlan_Click);
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
+            this.btnVolver.Image = global::UI.Properties.Resources.Boton_Volver;
+            this.btnVolver.Location = new System.Drawing.Point(228, 695);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(236, 69);
+            this.btnVolver.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnVolver.TabIndex = 27;
+            this.btnVolver.TabStop = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // degradePanel2
             // 
@@ -97,11 +133,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(330, 16);
+            this.label1.Location = new System.Drawing.Point(315, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 32);
+            this.label1.Size = new System.Drawing.Size(196, 32);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Subir Archivo";
+            this.label1.Text = "Subir Tips Drive";
             // 
             // btnTPostMan
             // 
@@ -150,31 +186,40 @@
             this.btnTKarate.TabStop = false;
             this.btnTKarate.Click += new System.EventHandler(this.btnTKarate_Click);
             // 
-            // btnVolver
+            // btnMax
             // 
-            this.btnVolver.BackColor = System.Drawing.Color.Transparent;
-            this.btnVolver.Image = global::UI.Properties.Resources.Boton_Volver;
-            this.btnVolver.Location = new System.Drawing.Point(228, 695);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.Size = new System.Drawing.Size(236, 69);
-            this.btnVolver.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnVolver.TabIndex = 27;
-            this.btnVolver.TabStop = false;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            this.btnMax.BackColor = System.Drawing.Color.Transparent;
+            this.btnMax.Image = global::UI.Properties.Resources.iconFull1;
+            this.btnMax.Location = new System.Drawing.Point(1216, 12);
+            this.btnMax.Name = "btnMax";
+            this.btnMax.Size = new System.Drawing.Size(25, 25);
+            this.btnMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnMax.TabIndex = 32;
+            this.btnMax.TabStop = false;
             // 
-            // btnAceptar
+            // btnCerrar
             // 
-            this.btnAceptar.BackColor = System.Drawing.Color.Transparent;
-            this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnAceptar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnAceptar.Image = global::UI.Properties.Resources.Boton_Login;
-            this.btnAceptar.Location = new System.Drawing.Point(800, 695);
-            this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(236, 69);
-            this.btnAceptar.TabIndex = 29;
-            this.btnAceptar.Text = "Subir Plan de Estudio";
-            this.btnAceptar.UseVisualStyleBackColor = false;
+            this.btnCerrar.BackColor = System.Drawing.Color.Transparent;
+            this.btnCerrar.Image = global::UI.Properties.Resources.iconExit;
+            this.btnCerrar.Location = new System.Drawing.Point(1263, 12);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(25, 25);
+            this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnCerrar.TabIndex = 31;
+            this.btnCerrar.TabStop = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.Image = global::UI.Properties.Resources.iconMin;
+            this.btnMinimizar.Location = new System.Drawing.Point(1169, 12);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(25, 25);
+            this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnMinimizar.TabIndex = 30;
+            this.btnMinimizar.TabStop = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // SubirTip
             // 
@@ -188,6 +233,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SubirTip";
             this.degradePanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).EndInit();
             this.degradePanel2.ResumeLayout(false);
             this.degradePanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnTJava)).EndInit();
@@ -195,7 +241,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTMERN)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnTKarate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMax)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -211,6 +259,9 @@
         private PictureBox btnTMERN;
         private PictureBox btnTKarate;
         private PictureBox btnVolver;
-        private Button btnAceptar;
+        private Button btnSubirPlan;
+        private PictureBox btnMax;
+        private PictureBox btnCerrar;
+        private PictureBox btnMinimizar;
     }
 }
