@@ -33,6 +33,7 @@
             this.lblDire = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.degradePanel1 = new UI.DegradePanel();
+            this.txtSubirProcedencia = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.txtDireccion = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,7 +43,6 @@
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnVolver = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtSubirProcedencia = new System.Windows.Forms.TextBox();
             this.degradePanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
@@ -106,11 +106,18 @@
             this.degradePanel1.Size = new System.Drawing.Size(845, 507);
             this.degradePanel1.TabIndex = 5;
             // 
+            // txtSubirProcedencia
+            // 
+            this.txtSubirProcedencia.Location = new System.Drawing.Point(3, 481);
+            this.txtSubirProcedencia.Name = "txtSubirProcedencia";
+            this.txtSubirProcedencia.Size = new System.Drawing.Size(100, 23);
+            this.txtSubirProcedencia.TabIndex = 10;
+            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(595, 328);
+            this.button2.Location = new System.Drawing.Point(511, 325);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(137, 58);
+            this.button2.Size = new System.Drawing.Size(132, 52);
             this.button2.TabIndex = 9;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -208,13 +215,6 @@
             this.panel1.TabIndex = 27;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // txtSubirProcedencia
-            // 
-            this.txtSubirProcedencia.Location = new System.Drawing.Point(3, 481);
-            this.txtSubirProcedencia.Name = "txtSubirProcedencia";
-            this.txtSubirProcedencia.Size = new System.Drawing.Size(100, 23);
-            this.txtSubirProcedencia.TabIndex = 10;
-            // 
             // SubirPDF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -231,6 +231,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SubirPDF";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SubirPDF";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.SubirPDF_Paint);
             this.degradePanel1.ResumeLayout(false);
