@@ -80,11 +80,36 @@ C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.EnviarBug.r
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.PlanesJAVA.resources
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.TipsJava.resources
 C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.TipUI.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ErrorMsg.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.PlatformServices.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Core.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.ErrorMsg.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.SubirPDF.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.Vista_Admin.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirPlan.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.ContactosUI.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.EnviarCorreo.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.SubirPlan.resources
+C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.SubirTip.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.exe
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.deps.json
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.runtimeconfig.json
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.dll
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\UI.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Core.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
@@ -101,15 +126,20 @@ C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\CapaNegocio
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.csproj.AssemblyReference.cache
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.AyudaUI.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ConfigUI.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ContactosUI.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.EnviarBug.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.EnviarCorreo.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.Form1.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.PanelPrincipal.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.PlanesJAVA.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.PlanesMERN.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.PlanEstudio.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.Properties.Resources.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirPDF.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirTip.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.TipsJava.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.TipUI.resources
+C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.Vista_Admin.resources
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.csproj.GenerateResource.cache
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.AssemblyInfoInputs.cache
@@ -121,33 +151,3 @@ C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\refint\UI.d
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.pdb
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.genruntimeconfig.cache
 C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\ref\UI.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.PlatformServices.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Core.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirPDF.resources
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ErrorMsg.resources
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.Vista_Admin.resources
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.dll
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.PlatformServices.dll
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Auth.dll
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Core.dll
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Google.Apis.Drive.v3.dll
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.dll
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Microsoft.WindowsAPICodePack.Shell.dll
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.ErrorMsg.resources
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.SubirPDF.resources
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.Vista_Admin.resources
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.ContactosUI.resources
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.EnviarCorreo.resources
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirTip.resources
-C:\Users\Guachupe\source\repos\PPJAPP\UI\UI\obj\Debug\net6.0-windows\UI.SubirPlan.resources
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.ContactosUI.resources
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.EnviarCorreo.resources
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.SubirPlan.resources
-C:\Users\maruxan\Escritorio\PPJ C#\UI\UI\obj\Debug\net6.0-windows\UI.SubirTip.resources

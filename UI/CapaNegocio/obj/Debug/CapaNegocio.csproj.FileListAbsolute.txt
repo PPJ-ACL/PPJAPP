@@ -18,32 +18,6 @@ C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.C
 C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\obj\Debug\CapaNegocio.pdb
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaNegocio.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaNegocio.pdb
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaConexion.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaConexion.pdb
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaConexion.dll.config
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.pdb
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.PlatformServices.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Core.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.PlatformServices.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.pdb
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.xml
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.pdb
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.xml
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Core.pdb
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Core.xml
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.pdb
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.xml
-C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
 C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.dll
 C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.PlatformServices.dll
 C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Core.dll
@@ -60,3 +34,29 @@ C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Core.xml
 C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.pdb
 C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.xml
 C:\Users\maruxan\Escritorio\PPJ C#\UI\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaConexion.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Core.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaConexion.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\CapaConexion.dll.config
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.xml
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Auth.xml
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Core.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Core.xml
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.pdb
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Google.Apis.Drive.v3.xml
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Guachupe\source\repos\PPJAPP\UI\CapaNegocio\obj\Debug\CapaNegocio.pdb
