@@ -767,19 +767,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Guachupe\\.nuget\\packages\\": {}
+    "C:\\Users\\maruxan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
+      "projectUniqueName": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\UI\\UI.csproj",
-      "packagesPath": "C:\\Users\\Guachupe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\UI\\obj\\",
+      "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\maruxan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Guachupe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maruxan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -793,14 +793,14 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj": {
-              "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaConexion\\CapaConexion.csproj"
+            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj": {
+              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaConexion\\CapaConexion.csproj"
             },
-            "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaDTO\\CapaDTO.csproj": {
-              "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaDTO\\CapaDTO.csproj"
+            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaDTO\\CapaDTO.csproj": {
+              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaDTO\\CapaDTO.csproj"
             },
-            "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaNegocio\\CapaNegocio.csproj": {
-              "projectPath": "C:\\Users\\Guachupe\\source\\repos\\PPJAPP\\UI\\CapaNegocio\\CapaNegocio.csproj"
+            "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaNegocio\\CapaNegocio.csproj": {
+              "projectPath": "C:\\Users\\maruxan\\Escritorio\\PPJ C#\\UI\\CapaNegocio\\CapaNegocio.csproj"
             }
           }
         }

@@ -72,6 +72,7 @@
             this.degradePanel1.Name = "degradePanel1";
             this.degradePanel1.Size = new System.Drawing.Size(1284, 761);
             this.degradePanel1.TabIndex = 0;
+            this.degradePanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel1_Paint);
             // 
             // btnMax
             // 
@@ -110,6 +111,7 @@
             this.degradePanel2.Name = "degradePanel2";
             this.degradePanel2.Size = new System.Drawing.Size(845, 507);
             this.degradePanel2.TabIndex = 7;
+            this.degradePanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.degradePanel2_Paint);
             // 
             // btnEPostMan
             // 

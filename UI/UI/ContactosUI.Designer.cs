@@ -44,8 +44,9 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnAyuda = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.btnAyuda = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             this.degradePanel1.SuspendLayout();
@@ -54,8 +55,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -64,12 +66,12 @@
             this.panel1.BackgroundImage = global::UI.Properties.Resources.imagen_4;
             this.panel1.Controls.Add(this.btnCerrar);
             this.panel1.Controls.Add(this.degradePanel1);
-            this.panel1.Controls.Add(this.btnAyuda);
-            this.panel1.Controls.Add(this.pictureBox10);
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(-77, -73);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1320, 825);
             this.panel1.TabIndex = 21;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnCerrar
             // 
@@ -252,27 +254,38 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox10.Image = global::UI.Properties.Resources.Brazuca_Sitting1;
+            this.pictureBox10.Location = new System.Drawing.Point(38, 188);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(282, 482);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 17;
+            this.pictureBox10.TabStop = false;
+            // 
             // btnAyuda
             // 
             this.btnAyuda.BackColor = System.Drawing.Color.Transparent;
             this.btnAyuda.Image = global::UI.Properties.Resources.Pregunta_Icon;
-            this.btnAyuda.Location = new System.Drawing.Point(360, 272);
+            this.btnAyuda.Location = new System.Drawing.Point(266, 203);
             this.btnAyuda.Name = "btnAyuda";
             this.btnAyuda.Size = new System.Drawing.Size(70, 70);
             this.btnAyuda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnAyuda.TabIndex = 18;
             this.btnAyuda.TabStop = false;
             // 
-            // pictureBox10
+            // panel2
             // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox10.Image = global::UI.Properties.Resources.Brazuca_Sitting1;
-            this.pictureBox10.Location = new System.Drawing.Point(124, 258);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(282, 482);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 17;
-            this.pictureBox10.TabStop = false;
+            this.panel2.BackgroundImage = global::UI.Properties.Resources.imagen_42;
+            this.panel2.Controls.Add(this.btnAyuda);
+            this.panel2.Controls.Add(this.pictureBox10);
+            this.panel2.Location = new System.Drawing.Point(77, 70);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1168, 681);
+            this.panel2.TabIndex = 20;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // ContactosUI
             // 
@@ -293,8 +306,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAyuda)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -302,8 +316,6 @@
         #endregion
 
         private Panel panel1;
-        private PictureBox btnAyuda;
-        private PictureBox pictureBox10;
         private DegradePanel degradePanel1;
         private Label label1;
         private PictureBox pictureBox5;
@@ -318,5 +330,8 @@
         private Label label3;
         private Label label2;
         private PictureBox pictureBox4;
+        private Panel panel2;
+        private PictureBox btnAyuda;
+        private PictureBox pictureBox10;
     }
 }
